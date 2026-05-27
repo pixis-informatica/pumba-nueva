@@ -4,6 +4,12 @@
  * Este archivo sirve metadatos puros a los bots de WhatsApp/Facebook/etc.
  */
 
+// Forzar que el servidor NUNCA cachee esta respuesta.
+// Los scrapers de WhatsApp y Facebook siempre leerán metadata fresca.
+header('Cache-Control: no-cache, no-store, must-revalidate');
+header('Pragma: no-cache');
+header('Expires: 0');
+
 $slug = isset($_GET['producto']) ? $_GET['producto'] : '';
 $bannerId = isset($_GET['banner']) ? $_GET['banner'] : '';
 $categoriaId = isset($_GET['categoria']) ? $_GET['categoria'] : '';

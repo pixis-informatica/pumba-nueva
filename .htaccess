@@ -63,16 +63,32 @@
 # --- Redirigir Robots de Redes Sociales al Mediador PHP (Social SEO) ---
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    
-    # Detectar Bots (WhatsApp, Facebook, Twitter, Discord, LinkeIn)
-    RewriteCond %{HTTP_USER_AGENT} (WhatsApp|facebookexternalhit|Twitterbot|Discordbot|LinkedInBot|TelegramBot) [NC]
-    RewriteCond %{QUERY_STRING} producto=([a-zA-Z0-9-]+)
-    RewriteRule ^(index\.html|)$ share.php?producto=%1 [L,QSA]
 
-    # Redirección para Banners (Deep Linking Social)
-    RewriteCond %{HTTP_USER_AGENT} (WhatsApp|facebookexternalhit|Twitterbot|Discordbot|LinkedInBot|TelegramBot) [NC]
-    RewriteCond %{QUERY_STRING} banner=([a-zA-Z0-9-]+)
-    RewriteRule ^(index\.html|)$ share.php?banner=%1 [L,QSA]
+    # =================================================================
+    # REGLA 1: Productos (?producto=slug)
+    # Captura el slug completo del producto (permite letras, números,
+    # guiones, puntos y caracteres especiales codificados en URL).
+    # Funciona aunque WhatsApp/Facebook agreguen parámetros extra
+    # como &=V3, &fbclid=..., etc. al final de la URL.
+    # =================================================================
+    RewriteCond %{HTTP_USER_AGENT} (WhatsApp|facebookexternalhit|Twitterbot|Discordbot|LinkedInBot|TelegramBot|Slackbot|Googlebot|bingbot) [NC]
+    RewriteCond %{QUERY_STRING} (?:^|&)producto=([^&]+)
+    RewriteRule ^(index\.html)?$ share.php?producto=%1 [L]
+
+    # =================================================================
+    # REGLA 2: Banners (?banner=id)
+    # =================================================================
+    RewriteCond %{HTTP_USER_AGENT} (WhatsApp|facebookexternalhit|Twitterbot|Discordbot|LinkedInBot|TelegramBot|Slackbot|Googlebot|bingbot) [NC]
+    RewriteCond %{QUERY_STRING} (?:^|&)banner=([^&]+)
+    RewriteRule ^(index\.html)?$ share.php?banner=%1 [L]
+
+    # =================================================================
+    # REGLA 3: Categorías (?categoria=id)  ← NUEVA REGLA
+    # =================================================================
+    RewriteCond %{HTTP_USER_AGENT} (WhatsApp|facebookexternalhit|Twitterbot|Discordbot|LinkedInBot|TelegramBot|Slackbot|Googlebot|bingbot) [NC]
+    RewriteCond %{QUERY_STRING} (?:^|&)categoria=([^&]+)
+    RewriteRule ^(index\.html)?$ share.php?categoria=%1 [L]
+
 </IfModule>
 
 # --- Redirigir a HTTPS si está disponible ---

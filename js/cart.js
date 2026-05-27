@@ -6,6 +6,20 @@ function onPixisDOMReady(cb) {
   }
 }
 
+/* =========================
+   CACHE BUSTER AUTOMÁTICO
+   Genera un sufijo de fecha diario (&_t=YYYYMMDD) para que
+   WhatsApp y Facebook re-scrapen el link cada día sin necesidad
+   de agregar manualmente &=V3 u otros versioning manuales.
+========================= */
+function getCacheBuster() {
+  const now = new Date();
+  const yyyy = now.getFullYear();
+  const mm   = String(now.getMonth() + 1).padStart(2, '0');
+  const dd   = String(now.getDate()).padStart(2, '0');
+  return '_t=' + yyyy + mm + dd;
+}
+
 document.querySelectorAll('.productos').forEach(productos => {
   productos.dataset.originalOrder = [...productos.children]
     .map(card => card.outerHTML)
@@ -1136,8 +1150,10 @@ document.addEventListener('click', function (e) {
   }
 
   // Modificar la URL con un identificador único paramétrico para compartir
+  // El cache buster diario (&_t=YYYYMMDD) fuerza a WhatsApp/Facebook a re-scrapear
+  // el link automáticamente cada día, sin necesidad de agregar &=Vx manualmente.
   let slug = card.dataset.title.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-  history.pushState({ modalOpen: true }, "", "?producto=" + slug);
+  history.pushState({ modalOpen: true }, "", "?producto=" + slug + "&" + getCacheBuster());
 
   modal.classList.add('active');
   document.body.style.overflow = 'hidden';
@@ -1746,8 +1762,9 @@ window.ejecutarFiltroBanner = function(filtro, textoVisible, bannerId = null) {
   window._bannerActualId = bannerId; // Guardar ID global
 
   // Actualizar URL para que sea compartible
+  // El cache buster diario fuerza un re-scrape automático en redes sociales.
   if (bannerId) {
-    history.pushState({ banner: bannerId }, "", "?banner=" + bannerId);
+    history.pushState({ banner: bannerId }, "", "?banner=" + bannerId + "&" + getCacheBuster());
   }
 
   if (typeof filtro === 'function') {
@@ -3243,8 +3260,9 @@ window.abrirCategoria = function(targetId) {
     actualizarEnlaceActivo();
 
     // Actualizar URL para que sea compartible de forma directa
+    // El cache buster diario fuerza un re-scrape automático en redes sociales.
     if (!(window.location.search.includes('edit=true'))) {
-        history.pushState({ categoria: targetId }, "", "?categoria=" + targetId);
+        history.pushState({ categoria: targetId }, "", "?categoria=" + targetId + "&" + getCacheBuster());
     }
 
     // 1. Cerrar el menu desplegable y resetear margen
