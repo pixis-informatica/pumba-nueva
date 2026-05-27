@@ -65,18 +65,68 @@
       "imgPc": "img/carrusel/ssd-hiksemi-pc-1779478675740.jpg",
       "imgMobile": "img/carrusel/ssd-hiksemi-mobile-1779478679137.jpg",
       "bannerId": "ssd-hiksemi"
+    },
+    {
+      "imgPc": "img/carrusel/banner-kit-tecnico-pc-1779922935392.jpg",
+      "imgMobile": "img/carrusel/banner-kit-tecnico-movil-1779922938704.jpg",
+      "bannerId": "kittecnico"
     }
   ],
-  "cacheVersion": 1779917313714,
-  "tasasCuotas": [
-    1.13,
-    1.31,
-    1.31,
-    1.6,
-    1.6
-  ],
-  "imageOptimization": {
-    "enabled": true,
-    "proxyUrl": "https://images.weserv.nl/?url="
-  }
+  "banners": {
+    "kitryzen": {
+      "f": "kitRyzen",
+      "t": "Kits de Actualización Ryzen"
+    },
+    "pccombo": {
+      "f": "pcCombo",
+      "t": "PC Gamers y Combos"
+    },
+    "monitor": {
+      "f": "monitorRaptor",
+      "t": "Monitores Raptor"
+    },
+    "rtx5050": {
+      "f": [
+        "5050"
+      ],
+      "t": "Tarjetas Gráficas RTX 5050"
+    },
+    "rtx5060": {
+      "f": [
+        "5060"
+      ],
+      "t": "Tarjetas Gráficas RTX 5060"
+    },
+    "notebooks": {
+      "f": "notebookMiniPc",
+      "t": "Notebooks y Mini PCs"
+    },
+    "prolongadores": {
+      "f": [
+        "prolongador"
+      ],
+      "t": "Prolongadores Kelyx"
+    },
+    "ssd-hiksemi": {
+      "f": "ssdHiksemi",
+      "t": "SSDs Hiksemi"
+    },
+    "refrigeracion-raptor": {
+      "f": "refrigeracionRaptor",
+      "t": "Refrigeración Raptor"
+    },
+    "gabinetes-raptor": {
+      "f": "gabinetesRaptor",
+      "t": "Gabinetes Raptor"
+    },
+    "perifericos-raptor": {
+      "f": "perifericosRaptor",
+      "t": "Periféricos Raptor"
+    },
+    "kittecnico": {
+      "f": "kittecnico",
+      "t": "KIT TECNICO"
+    }
+  },
+  "cacheVersion": 1779925182548
 }
