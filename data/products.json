@@ -1401,7 +1401,7 @@
     "category2": "destacados",
     "category3": "",
     "excludeFromExport": false,
-    "proximoIngreso": false
+    "proximoIngreso": true
   },
   {
     "id": "prod-1778937108223",
