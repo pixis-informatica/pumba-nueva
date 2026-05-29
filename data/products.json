@@ -1420,8 +1420,8 @@
     "banners": [
       "monitor"
     ],
-    "priceNum": "198000",
-    "cashPrice": "186000",
+    "priceNum": "199500",
+    "cashPrice": "187500",
     "customButtons": [
       {
         "label": "review",
@@ -1429,7 +1429,8 @@
       }
     ],
     "category3": "destacados",
-    "excludeFromExport": false
+    "excludeFromExport": false,
+    "proximoIngreso": true
   },
   {
     "img": "img\\des\\MONITOR-LG-ULTRAGEAR-180HZ 24.png",

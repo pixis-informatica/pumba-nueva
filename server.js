@@ -78,22 +78,53 @@ const server = http.createServer((req, res) => {
       if (!fs.existsSync(indexPath)) return;
       const html = fs.readFileSync(indexPath, 'utf-8');
       
-      const newHtml = html.replace(
-        /(<script\s+src=["']js\/versionalizador\.js\?v=)([^"']+)([^>]*><\/script>)/i,
-        (match, prefix, versionStr, suffix) => {
-          let parts = versionStr.split('.');
-          if (parts.length === 2 && !isNaN(parts[0]) && !isNaN(parts[1])) {
-            let major = parseInt(parts[0], 10);
-            let minor = parseInt(parts[1], 10) + 1;
-            return `${prefix}${major}.${minor}${suffix}`;
-          } else {
-            let current = parseFloat(versionStr) || 1.0;
-            return `${prefix}${(current + 0.1).toFixed(1)}${suffix}`;
-          }
+      let nextVersion = "";
+
+      // 1. Identificar la versión actual del script para calcular la siguiente
+      // Buscamos el patrón: js/versionalizador.js?v=X.X
+      const jsMatch = html.match(/js\/versionalizador\.js\?v=([^"'\s>]+)/i);
+      
+      if (jsMatch) {
+        const versionStr = jsMatch[1];
+        let parts = versionStr.split('.');
+        if (parts.length === 2 && !isNaN(parts[0]) && !isNaN(parts[1])) {
+          let major = parseInt(parts[0], 10);
+          let minor = parseInt(parts[1], 10) + 1;
+          nextVersion = `${major}.${minor}`;
+        } else {
+          let current = parseFloat(versionStr) || 1.0;
+          nextVersion = (current + 0.1).toFixed(1);
         }
+      } else {
+        nextVersion = "1.0"; // Fallback si no encuentra nada
+      }
+
+      // 2. Aplicar la misma nueva versión a JS y a los archivos CSS
+      let newHtml = html.replace(
+        /(js\/versionalizador\.js\?v=)([^"'\s>]+)/i,
+        `$1${nextVersion}`
       );
-      if (html !== newHtml) fs.writeFileSync(indexPath, newHtml, 'utf-8');
-    } catch (e) {}
+      
+      // Actualizar style.css
+      newHtml = newHtml.replace(
+        /(css\/style\.css\?v=)([^"'\s>]+)/i,
+        `$1${nextVersion}`
+      );
+      
+      // Actualizar lightmode.css
+      newHtml = newHtml.replace(
+        /(css\/lightmode\.css\?v=)([^"'\s>]+)/i,
+        `$1${nextVersion}`
+      );
+
+      if (html !== newHtml) {
+        fs.writeFileSync(indexPath, newHtml, 'utf-8');
+        const now = new Date().toLocaleTimeString('es-AR');
+        console.log(`  \x1b[36m🔄 [${now}] Cache Busting: index.html actualizado a v${nextVersion}\x1b[0m`);
+      }
+    } catch (e) {
+      console.error('  \x1b[31m❌ Error en bumpVersionalizador:\x1b[0m', e.message);
+    }
   };
 
   // ── POST /api/login (Paso 1: Usuario/Pass) ────────────────
