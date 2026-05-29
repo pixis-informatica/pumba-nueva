@@ -1,7 +1,7 @@
 [
   {
-    "img": "img/productos/adaptador bluetooth.png",
-    "gallery": "img\\productos\\MA530 Mercusys Adaptador Bluetooth 5.3 USB Nano (2176)\\000000000041722935266417229--1-.webp,img\\productos\\MA530 Mercusys Adaptador Bluetooth 5.3 USB Nano (2176)\\0000000000417229000235261417229--3-.webp",
+    "img": "img/productos/adaptador-bluetooth-5-3-usb-nano-ma530-mercusys/adaptador-bluetooth-1780098473177.jpg",
+    "gallery": "img/productos/adaptador-bluetooth-5-3-usb-nano-ma530-mercusys/adaptador-bluetooth-1780098473177.jpg,img\\productos\\MA530 Mercusys Adaptador Bluetooth 5.3 USB Nano (2176)\\000000000041722935266417229--1-.webp,img\\productos\\MA530 Mercusys Adaptador Bluetooth 5.3 USB Nano (2176)\\0000000000417229000235261417229--3-.webp",
     "title": "Adaptador Bluetooth 5.3 USB Nano MA530 Mercusys",
     "priceVisible": "$7.500",
     "subcategoria": "Adaptador bluetooth",
@@ -9,8 +9,8 @@
     "priceLocal": 7000,
     "inStock": true,
     "id": "prod-ma530-mercusys-adaptador-bluet-14",
-    "priceNum": "7500",
-    "cashPrice": "6500",
+    "priceNum": "8500",
+    "cashPrice": "7000",
     "desc": "🔵 Bluetooth 5.3\n\n⚡ Mayor velocidad, 📶 mejor cobertura, 🔒 seguridad reforzada y 🔁 conexión más fiable.\n\n📡 Conectividad inalámbrica estable\n\n🔗 Comunicación fluida entre dispositivos Bluetooth y tu PC o notebook.\n\n📏 Diseño nano\n\n🧳 Ultracompacto para máxima portabilidad con alto rendimiento 💪",
     "customButtons": [
       {
@@ -21,7 +21,9 @@
     "banners": [],
     "category": "red",
     "category2": "Cables",
-    "category3": ""
+    "category3": "nuevos",
+    "proximoIngreso": false,
+    "excludeFromExport": false
   },
   {
     "id": "PROD-MPEHG5FLALJP",
@@ -558,7 +560,7 @@
     "priceLocal": 29000,
     "inStock": true,
     "priceNum": "32000",
-    "cashPrice": "28500",
+    "cashPrice": "29000",
     "img": "img/productos/camara-de-seguridad-domo-360-2k-mc210-camara-ip-mercusys-indoor-2k-3mp-360/mc210-eu-1-1779910971677.jpg",
     "gallery": "img/productos/camara-de-seguridad-domo-360-2k-mc210-camara-ip-mercusys-indoor-2k-3mp-360/mc210-eu-1-1779910971677.jpg,img/productos/camara-de-seguridad-domo-360-2k-mc210-camara-ip-mercusys-indoor-2k-3mp-360/mc210-eu-1-1779910971660.jpg,img/productos/camara-de-seguridad-domo-360-2k-mc210-camara-ip-mercusys-indoor-2k-3mp-360/mc210-eu-1-1779910971644.jpg,img/productos/camara-de-seguridad-domo-360-2k-mc210-camara-ip-mercusys-indoor-2k-3mp-360/mc210-eu-1-1779910976968.jpg,img/productos/camara-de-seguridad-domo-360-2k-mc210-camara-ip-mercusys-indoor-2k-3mp-360/mc210-eu-1-1779910971541.jpg,img/productos/camara-de-seguridad-domo-360-2k-mc210-camara-ip-mercusys-indoor-2k-3mp-360/mc210-eu-1-1779910971562.jpg,img/productos/camara-de-seguridad-domo-360-2k-mc210-camara-ip-mercusys-indoor-2k-3mp-360/mc210-eu-1-1779910971587.jpg,img/productos/camara-de-seguridad-domo-360-2k-mc210-camara-ip-mercusys-indoor-2k-3mp-360/mc210-eu-1-1779910971612.jpg,img/productos/camara-de-seguridad-domo-360-2k-mc210-camara-ip-mercusys-indoor-2k-3mp-360/mc210-eu-1-1779910971628.jpg",
     "desc": "📹 MC210 – Cámara Wi-Fi 360° para el hogar  \nSeguridad inteligente con visión completa y alta definición.\n\nVídeo 2K 3MP: imágenes claras y detalladas en todo momento.\n\nCobertura 360°: movimiento horizontal y vertical para visión completa.\n\nDetección inteligente: seguimiento de personas, movimiento y llanto de bebé, con alertas instantáneas.\n\nVisión nocturna avanzada: hasta 12 m de alcance para vigilancia continua.\n\nAudio bidireccional: micrófono y altavoz integrados para comunicación en tiempo real.\n\nAlmacenamiento flexible: local gratuito en microSD hasta 512GB o en la nube MERCUSYS.\n\nPrivacidad personalizable: zona de bloqueo para proteger espacios privados.\n\nControl por voz: compatible con Google Assistant y Amazon Alexa.\n\n🏠 Ideal para mantener tu hogar seguro, conectado y bajo control las 24 horas.",
@@ -571,13 +573,14 @@
     "banners": [],
     "subcategoria": "Camara de seguridad",
     "category": "Camara de Seguridad",
-    "category2": "",
+    "category2": "nuevos",
     "category3": "",
-    "excludeFromExport": false
+    "excludeFromExport": false,
+    "proximoIngreso": false
   },
   {
-    "img": "img\\productos\\TAPO C310 Camara IP DayNight SD Wifi Exterior (0911)\\1_normal_1599194402144s.jpg",
-    "gallery": "img\\productos\\TAPO C310 Camara IP DayNight SD Wifi Exterior (0911)\\1_normal_1599194402144s.jpg,img\\productos\\TAPO C310 Camara IP DayNight SD Wifi Exterior (0911)\\2_normal_1599194417653c.jpg,img\\productos\\TAPO C310 Camara IP DayNight SD Wifi Exterior (0911)\\3_normal_1599194429663y.jpg,img\\productos\\TAPO C310 Camara IP DayNight SD Wifi Exterior (0911)\\4_normal_1599194441148o.jpg",
+    "img": "img/productos/camara-de-seguridad-tapo-c310-tp-link/tapo-c310-camara-de-seguridad-1780098488868.jpg",
+    "gallery": "img/productos/camara-de-seguridad-tapo-c310-tp-link/tapo-c310-camara-de-seguridad-1780098488868.jpg,img\\productos\\TAPO C310 Camara IP DayNight SD Wifi Exterior (0911)\\1_normal_1599194402144s.jpg,img\\productos\\TAPO C310 Camara IP DayNight SD Wifi Exterior (0911)\\2_normal_1599194417653c.jpg,img\\productos\\TAPO C310 Camara IP DayNight SD Wifi Exterior (0911)\\3_normal_1599194429663y.jpg,img\\productos\\TAPO C310 Camara IP DayNight SD Wifi Exterior (0911)\\4_normal_1599194441148o.jpg",
     "title": "Camara de seguridad TAPO C310 TP-Link",
     "desc": "- Cámara exterior\n- App de seguridad sin anuncios\n- Redes inalámbricas o cableadas\n- Detección de movimiento y notificaciones\n- Ultra alta definición 3 MP\n- IP66 resistente a la intemperie",
     "priceVisible": "$55.500",
@@ -1474,8 +1477,8 @@
     "priceLocal": 702500,
     "inStock": true,
     "id": "prod-vga-msi-geforce-rtx-5060-8g-ve-357",
-    "priceNum": "728500",
-    "cashPrice": "697000",
+    "priceNum": "735000",
+    "cashPrice": "702500",
     "customButtons": [
       {
         "label": "review",
@@ -1483,11 +1486,13 @@
       }
     ],
     "banners": [
-      "rtx5060"
+      "geforcertxseries50"
     ],
     "category": "Placas de video",
     "category2": "destacados",
-    "category3": ""
+    "category3": "",
+    "proximoIngreso": false,
+    "excludeFromExport": false
   },
   {
     "id": "prod-1778107250638",
@@ -3823,8 +3828,8 @@
     "priceLocal": 601000,
     "inStock": true,
     "id": "prod-vga-gigabyte-geforce-rtx-5050--811",
-    "priceNum": "617500",
-    "cashPrice": "596500",
+    "priceNum": "621500",
+    "cashPrice": "601000",
     "customButtons": [
       {
         "label": "review",
@@ -3832,12 +3837,13 @@
       }
     ],
     "banners": [
-      "rtx5050"
+      "geforcertxseries50"
     ],
     "category": "Placas de video",
     "category2": "",
     "category3": "",
-    "excludeFromExport": false
+    "excludeFromExport": false,
+    "proximoIngreso": false
   },
   {
     "img": "img\\productos\\rtx 5050.png",
@@ -3850,8 +3856,8 @@
     "priceLocal": 567500,
     "inStock": true,
     "id": "prod-vga-msi-geforce-rtx-5050-ventu-538",
-    "priceNum": "585000",
-    "cashPrice": "563500",
+    "priceNum": "589000",
+    "cashPrice": "567500",
     "customButtons": [
       {
         "label": "review",
@@ -3859,12 +3865,13 @@
       }
     ],
     "banners": [
-      "rtx5050"
+      "geforcertxseries50"
     ],
     "category": "Placas de video",
     "category2": "",
     "category3": "",
-    "excludeFromExport": false
+    "excludeFromExport": false,
+    "proximoIngreso": false
   },
   {
     "img": "img\\productos\\rtx 5060 shadow.png",
@@ -3877,8 +3884,8 @@
     "priceLocal": 0,
     "inStock": false,
     "id": "prod-vga-msi-geforce-rtx-5060-8g-sh-536",
-    "priceNum": "718500",
-    "cashPrice": "687000",
+    "priceNum": "",
+    "cashPrice": "",
     "customButtons": [
       {
         "label": "review",
@@ -3886,11 +3893,13 @@
       }
     ],
     "banners": [
-      "rtx5060"
+      "geforcertxseries50"
     ],
     "category": "Placas de video",
     "category2": "",
-    "category3": ""
+    "category3": "",
+    "proximoIngreso": false,
+    "excludeFromExport": false
   },
   {
     "img": "img\\des\\msi a13 240 des.png",

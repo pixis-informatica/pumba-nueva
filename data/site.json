@@ -10,6 +10,11 @@
   "whatsappLink": "https://wa.me/message/EYUUSVNG5HPNF1",
   "carouselTop": [
     {
+      "imgPc": "img/carrusel/caracol-1780094855042.jpg",
+      "imgMobile": "img/carrusel/apex-movil-1780094738451.jpg",
+      "bannerId": "joysticksraptorapex"
+    },
+    {
       "imgPc": "img/carrusel/banner-kit-ryzen-pc-1779224855793.jpg",
       "imgMobile": "img/carrusel/banner-kit-ryzen-movil-1779224860684.jpg",
       "bannerId": "kitryzen"
@@ -20,24 +25,9 @@
       "bannerId": "pccombo"
     },
     {
-      "imgPc": "img/carrusel/caracol-1780094855042.jpg",
-      "imgMobile": "img/carrusel/apex-movil-1780094738451.jpg",
-      "bannerId": "joysticksraptorapex"
-    },
-    {
       "imgPc": "img/carrusel/mini-pc-pc-1779478506841.jpg",
       "imgMobile": "img/carrusel/mini-pc-mobile-1779478510259.jpg",
       "bannerId": "notebooks"
-    },
-    {
-      "imgPc": "img/carrusel/rtx-5050-pc-1779478421431.jpg",
-      "imgMobile": "img/carrusel/rtx-5050-mobile-1779478439239.jpg",
-      "bannerId": "rtx5050"
-    },
-    {
-      "imgPc": "img/carrusel/rtx-5060-pc-1779478458454.jpg",
-      "imgMobile": "img/carrusel/rtx-5050-mobile--2--1779478472577.jpg",
-      "bannerId": "rtx5060"
     },
     {
       "imgPc": "img/carrusel/prolongalizador-pc-1779478491716.jpg",
@@ -46,6 +36,11 @@
     }
   ],
   "carouselBottom": [
+    {
+      "imgPc": "img/carrusel/nivida-pc-1780098068637.jpg",
+      "imgMobile": "img/carrusel/nvidia-mobile-1780098073825.jpg",
+      "bannerId": "geforcertxseries50"
+    },
     {
       "imgPc": "img/carrusel/monitor-rapto-pc-1779478620997.jpg",
       "imgMobile": "img/carrusel/monitor-rapto-mobile-1779478624353.jpg",
@@ -67,11 +62,6 @@
       "bannerId": "perifericos-raptor"
     },
     {
-      "imgPc": "img/carrusel/ssd-hiksemi-pc-1779478675740.jpg",
-      "imgMobile": "img/carrusel/ssd-hiksemi-mobile-1779478679137.jpg",
-      "bannerId": "ssd-hiksemi"
-    },
-    {
       "imgPc": "img/carrusel/banner-kit-tecnico-pc-1779922935392.jpg",
       "imgMobile": "img/carrusel/banner-kit-tecnico-movil-1779922938704.jpg",
       "bannerId": "kittecnico"
@@ -89,18 +79,6 @@
     "monitor": {
       "f": "monitorRaptor",
       "t": "Monitores Raptor"
-    },
-    "rtx5050": {
-      "f": [
-        "5050"
-      ],
-      "t": "Tarjetas Gráficas RTX 5050"
-    },
-    "rtx5060": {
-      "f": [
-        "5060"
-      ],
-      "t": "Tarjetas Gráficas RTX 5060"
     },
     "notebooks": {
       "f": "notebookMiniPc",
@@ -135,7 +113,11 @@
     "joysticksraptorapex": {
       "f": "joysticksraptorapex",
       "t": "Joysticks RAPTOR APEX"
+    },
+    "geforcertxseries50": {
+      "f": "geforcertxseries50",
+      "t": "GEFORCE RTX SERIES 50"
     }
   },
-  "cacheVersion": 1780095936470
+  "cacheVersion": 1780099112259
 }

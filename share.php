@@ -25,17 +25,17 @@ $CATEGORIAS_SEO = [
         "imagen" => "https://mistyrose-ibex-626891.hostingersite.com/assets/meta/banner-cargadores.jpg"
     ],
     "almacenamiento" => [
-        "titulo" => "Pixis Informática | Discos SSD y Almacenamiento",
+        "titulo" => "Pixis Informática | Discos SSD y Almacenamiento de todo tipo para tu PC",
         "descripcion" => "💾 DISCOS SÓLIDOS Y ALMACENAMIENTO M.2 NVMe — Optimizá la velocidad de tu PC o Notebook. Unidades de alto rendimiento y almacenamiento externo.",
         "imagen" => "https://mistyrose-ibex-626891.hostingersite.com/assets/meta/banner-almacenamiento.jpg"
     ],
     "memorias ram" => [
-        "titulo" => "Pixis Informática | Memorias RAM de Alto Rendimiento",
+        "titulo" => "Pixis Informática | Memorias RAM de Alto Rendimiento para tu PC",
         "descripcion" => "🚀 MEMORIAS RAM DDR4 Y DDR5 — Potenciá tu rendimiento multitarea. Módulos de alta velocidad ideales para Gaming, Diseño y Oficina.",
         "imagen" => "https://mistyrose-ibex-626891.hostingersite.com/assets/meta/banner-ram.jpg"
     ],
     "cables" => [
-        "titulo" => "Pixis Informática | Adaptadores y Cables",
+        "titulo" => "Pixis Informática | Adaptadores y Cables todo lo que necesitas para tu PC y Consola",
         "descripcion" => "🔌 ADAPTADORES & CABLES — Conectividad garantizada. Cables HDMI, DisplayPort, adaptadores de video y red para PC y Consolas.",
         "imagen" => ""
     ],
@@ -45,12 +45,12 @@ $CATEGORIAS_SEO = [
         "imagen" => ""
     ],
     "fuentes" => [
-        "titulo" => "Pixis Informática | Fuentes de Alimentación",
+        "titulo" => "Pixis Informática | Fuentes de Alimentación para cuidar tu inversión",
         "descripcion" => "🔋 FUENTES DE ALIMENTACIÓN — Energía estable y segura para tu hardware. Fuentes certificadas 80 Plus, modulares y de alta gama.",
         "imagen" => ""
     ],
     "gabinetes" => [
-        "titulo" => "Pixis Informática | Gabinetes Gamer y de Oficina",
+        "titulo" => "Pixis Informática | Gabinetes Gamers y de Oficina",
         "descripcion" => "🖥️ GABINETES GAMER — Diseños con flujo de aire optimizado, vidrio templado y coolers RGB. Encontrá el chasis perfecto para tu setup.",
         "imagen" => ""
     ],
@@ -60,32 +60,32 @@ $CATEGORIAS_SEO = [
         "imagen" => ""
     ],
     "monitores" => [
-        "titulo" => "Pixis Informática | Monitores Gamer y de Oficina",
+        "titulo" => "Pixis Informática | Monitores Gamer full hd y de Oficina",
         "descripcion" => "🖥️ MONITORES — Disfrutá de la mejor definición. Pantallas de alta tasa de refresco, paneles IPS, curvos y planos para Gaming o Trabajo.",
         "imagen" => ""
     ],
     "notebook" => [
-        "titulo" => "Pixis Informática | PC y Notebooks",
+        "titulo" => "Pixis Informática | PC gamers, Notebooks y mini pcs",
         "descripcion" => "💻 PORTÁTILES Y MINI PCs — Notebooks para estudio, trabajo y gaming de las mejores marcas. Rendimiento móvil garantizado.",
         "imagen" => ""
     ],
     "periféricos" => [
-        "titulo" => "Pixis Informática | Periféricos y Accesorios",
+        "titulo" => "Pixis Informática | Periféricos y Accesorios todo para tu PC",
         "descripcion" => "🖱️ TECLADOS, MOUSES Y AURICULARES — Periféricos ergonómicos y mecánicos para elevar tu experiencia de juego y productividad en el día a día.",
         "imagen" => ""
     ],
     "placas madres" => [
-        "titulo" => "Pixis Informática | Placas Madres (Motherboards)",
+        "titulo" => "Pixis Informática | PLACAS MADRES AMD AM4 y AM5 ",
         "descripcion" => "🔲 PLACAS MADRES — La base de tu potencia. Chipsets Intel y AMD de última generación, listos para ensamblar tu nueva computadora.",
         "imagen" => ""
     ],
     "placas de video" => [
-        "titulo" => "Pixis Informática | Placas de Video (GPUs)",
+        "titulo" => "Pixis Informática | MIRA LAS PLACAS DE VIDEO NVIDIA y AMD DISPONIBLES",
         "descripcion" => "🎮 TARJETAS GRÁFICAS — Rendimiento extremo en tus juegos y diseño. GPUs Nvidia GeForce RTX, AMD Radeon, listas con stock inmediato.",
         "imagen" => ""
     ],
     "procesadores" => [
-        "titulo" => "Pixis Informática | Procesadores (CPUs)",
+        "titulo" => "Pixis Informática | Procesadores AMD RYZEN ",
         "descripcion" => "⚙️ PROCESADORES INTEL Y AMD — El cerebro de tu máquina. CPUs de alto rendimiento para Gaming, Edición y Ofimática.",
         "imagen" => ""
     ],
@@ -100,17 +100,17 @@ $CATEGORIAS_SEO = [
         "imagen" => ""
     ],
     "sillas y escritorios gamer" => [
-        "titulo" => "Pixis Informática | Sillas y Escritorios Gamer",
+        "titulo" => "Pixis Informática | TODO PARA TU SETUP GAMER: SILLAS Y ESCRITORIOS ",
         "descripcion" => "🪑 ERGONOMÍA GAMER — Sillas ultra cómodas y escritorios premium para pasar horas jugando o trabajando con la mejor postura.",
         "imagen" => ""
     ],
     "destacados" => [
-        "titulo" => "Pixis Informática | Productos Destacados",
+        "titulo" => "Pixis Informática | MIRA LOS PRODUCTOS DESTACADOS EN PIXIS",
         "descripcion" => "🔥 LOS MÁS ELEGIDOS — Descubrí los productos más populares y recomendados de nuestra tienda con la mejor relación calidad-precio.",
         "imagen" => ""
     ],
     "nuevos" => [
-        "titulo" => "Pixis Informática | Nuevos Ingresos",
+        "titulo" => "Pixis Informática | MIRA LOS NUEVOS INGRESOS EN PIXIS",
         "descripcion" => "✨ RECIÉN LLEGADOS — Las últimas novedades en tecnología y hardware que acaban de ingresar a nuestro catálogo. ¡No te las pierdas!",
         "imagen" => ""
     ]
