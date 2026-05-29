@@ -415,6 +415,45 @@ window.PixisState = {
             card.classList.remove('sin-stock');
           }
 
+          // Próximo Ingreso
+          if (data.proximoIngreso === true) {
+            card.classList.add('proximo-ingreso');
+            card.dataset.proximoIngreso = 'true';
+            if (!card.querySelector('.card-badge-proximamente')) {
+              const badge = document.createElement('span');
+              badge.className = 'card-badge-proximamente';
+              badge.textContent = 'PRÓXIMAMENTE';
+              
+              const title = document.createElement('div');
+              title.className = 'card-gold-promo-title';
+              title.textContent = '¡COMPRA EL TUYO AHORA!';
+              
+              const subtitle = document.createElement('div');
+              subtitle.className = 'card-gold-promo-subtitle';
+              subtitle.textContent = 'Sé de los primeros en tenerlo';
+              
+              card.prepend(subtitle);
+              card.prepend(title);
+              card.prepend(badge);
+
+              const addBtn = card.querySelector('.btn-add-cart');
+              if (addBtn && !addBtn.textContent.includes('🛒')) {
+                addBtn.textContent = '🛒 AGREGAR AL CARRITO';
+              }
+            }
+          } else if (data.proximoIngreso === false) {
+            card.classList.remove('proximo-ingreso');
+            card.dataset.proximoIngreso = 'false';
+            card.querySelector('.card-badge-proximamente')?.remove();
+            card.querySelector('.card-gold-promo-title')?.remove();
+            card.querySelector('.card-gold-promo-subtitle')?.remove();
+
+            const addBtn = card.querySelector('.btn-add-cart');
+            if (addBtn && addBtn.textContent.includes('🛒')) {
+              addBtn.textContent = 'Agregar al carrito';
+            }
+          }
+
           // Botones personalizados
           if (data.customButtons) {
             card.dataset.customButtons = JSON.stringify(data.customButtons);
@@ -750,7 +789,9 @@ function renderDynamicProducts(products) {
 
     validCats.forEach(catId => {
       const card = document.createElement('a');
-      card.className = 'card pulsante2 dynamic-injected';
+      
+      const isProximo = prod.proximoIngreso === true;
+      card.className = `card pulsante2 dynamic-injected${isProximo ? ' proximo-ingreso' : ''}`;
       card.href = `?producto=${slug}`;
       
       card.dataset.title        = prod.title   || '';
@@ -762,11 +803,17 @@ function renderDynamicProducts(products) {
       card.dataset.desc         = prod.desc    || '';
       card.dataset.subcategoria = prod.subcategoria || '';
       card.dataset.pixisId      = prod.id;
+      card.dataset.proximoIngreso = isProximo ? 'true' : 'false';
       if (prod.customButtons) card.dataset.customButtons = JSON.stringify(prod.customButtons);
       if (prod.banners) card.dataset.banners = JSON.stringify(prod.banners);
       if (prod.inStock === false) card.classList.add('sin-stock');
 
       card.innerHTML = `
+        ${isProximo ? `
+          <span class="card-badge-proximamente">PRÓXIMAMENTE</span>
+          <div class="card-gold-promo-title">¡COMPRA EL TUYO AHORA!</div>
+          <div class="card-gold-promo-subtitle">Sé de los primeros en tenerlo</div>
+        ` : ''}
         <img src="${window.optimizeImageUrl(coverImg, 400)}" alt="${escStateHtml(prod.title)}">
         <h3>${escStateHtml(prod.title)}</h3>
         <p>${escStateHtml(prod.subcategoria || '')}</p>
@@ -778,7 +825,7 @@ function renderDynamicProducts(products) {
                 data-name="${escStateHtml(prod.title)}"
                 data-price="${prod.price}"
                 data-price-local="${prod.priceLocal || prod.price}">
-          Agregar al carrito
+          ${isProximo ? '🛒 AGREGAR AL CARRITO' : 'Agregar al carrito'}
         </button>
         <a href="${(window.PixisState?.state?.site?.whatsappLink) || 'https://wa.me/message/EYUUSVNG5HPNF1'}" class="btn-wsp">Consultar</a>
       `;

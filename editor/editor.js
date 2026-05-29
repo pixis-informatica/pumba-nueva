@@ -2612,7 +2612,7 @@ function openCardEditor(card, productData = null, productIdx = null) {
   // Leer datos: 
   // 1. Si es producto JSON (productData)
   // 2. Si es card HTML (usar overrides de PixisState.ui.cards o dataset)
-  let title, priceNum, priceLocal, cashPrice, img, desc, inStock, customBtns, banners, priceVisible, subcat, category, category2, category3;
+  let title, priceNum, priceLocal, cashPrice, img, desc, inStock, proximoIngreso, customBtns, banners, priceVisible, subcat, category, category2, category3;
 
   if (productData) {
     // Es un producto JSON puro
@@ -2630,6 +2630,7 @@ function openCardEditor(card, productData = null, productIdx = null) {
 
     desc         = productData.desc || '';
     inStock    = productData.inStock !== false;
+    proximoIngreso = productData.proximoIngreso === true;
     customBtns = productData.customButtons || [];
     banners    = productData.banners || [];
     priceVisible = productData.priceVisible || (priceNum ? `$${Number(priceNum).toLocaleString()}` : '');
@@ -2656,6 +2657,7 @@ function openCardEditor(card, productData = null, productIdx = null) {
 
     desc         = saved.desc     || card.dataset.desc     || '';
     inStock      = saved.inStock  !== undefined ? saved.inStock : !card.classList.contains('sin-stock');
+    proximoIngreso = saved.proximoIngreso !== undefined ? saved.proximoIngreso : (card.dataset.proximoIngreso === 'true' || card.classList.contains('proximo-ingreso'));
     customBtns   = saved.customButtons || (card.dataset.customButtons ? JSON.parse(card.dataset.customButtons) : []) || [];
     banners      = saved.banners  || (card.dataset.banners ? JSON.parse(card.dataset.banners) : null) || [];
     priceVisible = saved.price    || card.dataset.price || '';
@@ -2785,6 +2787,18 @@ function openCardEditor(card, productData = null, productIdx = null) {
       </div>
       <div style="font-size:10px;color:#666;margin-top:6px;">Controla si el botón de compra está activo en la web.</div>
       <input type="hidden" id="cardStockVal" value="${inStock ? 'true' : 'false'}">
+
+      <!-- Toggle Próximo Ingreso (Featured Gold Premium) -->
+      <div style="margin-top: 12px; background: rgba(212, 175, 55, 0.05); border: 1px solid rgba(212, 175, 55, 0.3); padding: 8px; border-radius: 6px; display: flex; align-items: center; justify-content: space-between;">
+        <div style="display: flex; flex-direction: column;">
+          <span style="font-size: 12.5px; font-weight: bold; color: #ffd700;">✨ Próximo Ingreso</span>
+          <span style="font-size: 9px; color: #aaa;">Activa el diseño Featured Gold Premium</span>
+        </div>
+        <label class="pixis-gold-switch" style="position: relative; display: inline-block; width: 44px; height: 22px;">
+          <input type="checkbox" id="cardProximoIngreso" ${proximoIngreso ? 'checked' : ''} style="opacity: 0; width: 0; height: 0;">
+          <span class="pixis-gold-slider" style="position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #333; transition: .4s; border-radius: 22px; border: 1px solid rgba(212,175,55,0.4);"></span>
+        </label>
+      </div>
     </div>
 
     <div class="panel-section" style="background:rgba(176,38,255,0.05); border:1px solid rgba(176,38,255,0.2);">
@@ -2979,6 +2993,7 @@ function openCardEditor(card, productData = null, productIdx = null) {
     const newDesc       = document.getElementById('cardDesc')?.value.trim() || '';
     const newStock      = document.getElementById('cardStockVal')?.value === 'true';
     const newExclude    = document.getElementById('cardExcludeExport')?.checked === true;
+    const newProximoIngreso = document.getElementById('cardProximoIngreso')?.checked === true;
 
     // Recolectar botones personalizados
     const newCustomBtns = [];
@@ -3015,6 +3030,7 @@ function openCardEditor(card, productData = null, productIdx = null) {
       gallery:       galleryStr,
       desc:          newDesc,
       inStock:       newStock,
+      proximoIngreso: newProximoIngreso,
       customButtons: newCustomBtns,
       banners:       newBanners,
       subcategoria:  newSubcat,
@@ -3032,6 +3048,7 @@ function openCardEditor(card, productData = null, productIdx = null) {
         price: parseInt(newPriceNum) || 0,
         priceLocal: parseInt(newCashPrice) || parseInt(newPriceNum) || 0,
         excludeFromExport: newExclude,
+        proximoIngreso: newProximoIngreso,
       };
       
       if (window.PixisState) {
@@ -3083,7 +3100,11 @@ function injectProductCard(product) {
 
   const priceFormatted = `$${Number(product.price).toLocaleString()}`;
   const card = document.createElement('div');
-  card.className = 'card pulsante2';
+  
+  const isProximo = product.proximoIngreso === true;
+  card.className = `card pulsante2${isProximo ? ' proximo-ingreso' : ''}`;
+  card.dataset.proximoIngreso = isProximo ? 'true' : 'false';
+  
   card.dataset.title = product.title;
   card.dataset.price = priceFormatted;
   card.dataset.img = product.img || '';
@@ -3092,6 +3113,11 @@ function injectProductCard(product) {
   card.dataset.pixisId = product.id;
 
   card.innerHTML = `
+    ${isProximo ? `
+      <span class="card-badge-proximamente">PRÓXIMAMENTE</span>
+      <div class="card-gold-promo-title">¡COMPRA EL TUYO AHORA!</div>
+      <div class="card-gold-promo-subtitle">Sé de los primeros en tenerlo</div>
+    ` : ''}
     <img src="${product.img || ''}" alt="${escHtml(product.title)}">
     <h3>${escHtml(product.title)}</h3>
     <p>${escHtml(product.subcategoria || '')}</p>
@@ -3100,7 +3126,7 @@ function injectProductCard(product) {
             data-name="${escHtml(product.title)}"
             data-price="${product.price}"
             data-price-local="${product.priceLocal}">
-      Agregar al carrito
+      ${isProximo ? '🛒 AGREGAR AL CARRITO' : 'Agregar al carrito'}
     </button>
     <a href="https://wa.me/message/EYUUSVNG5HPNF1" class="btn-wsp">Consultar</a>
   `;
@@ -3892,6 +3918,12 @@ function applyCardDataToDOM(card, data) {
   // Stock
   const sinStock = data.inStock === false;
   card.classList.toggle('sin-stock', sinStock);
+
+  // Próximo Ingreso
+  if (data.proximoIngreso !== undefined) {
+    card.dataset.proximoIngreso = data.proximoIngreso ? 'true' : 'false';
+    card.classList.toggle('proximo-ingreso', data.proximoIngreso);
+  }
   // Re-inyectar botón lápiz si la card es nueva
   if (!card.querySelector('.pixis-edit-card-btn')) {
     injectCardEditButtons();

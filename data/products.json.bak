@@ -1385,8 +1385,8 @@
     "priceLocal": 645000,
     "inStock": true,
     "id": "prod-mini-pc-kelyx-intel-core-i3-12-474",
-    "priceNum": "651000",
-    "cashPrice": "640500",
+    "priceNum": "655500",
+    "cashPrice": "645000",
     "customButtons": [
       {
         "label": "review",
@@ -1399,7 +1399,8 @@
     "category": "Notebook",
     "category2": "destacados",
     "category3": "",
-    "excludeFromExport": false
+    "excludeFromExport": false,
+    "proximoIngreso": true
   },
   {
     "id": "prod-1778937108223",
