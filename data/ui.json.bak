@@ -158,6 +158,11 @@
       "src": "https://img.youtube.com/vi/gZ-wXPUasYY/hqdefault.jpg",
       "alt": "Video YouTube 3",
       "href": "https://youtu.be/gZ-wXPUasYY?si=cKrpwHkQ2_ARQRzf"
+    },
+    "div#categorias > div > div:nth-of-type(2) > a:nth-of-type(14) > div > img": {
+      "src": "img/uploads/img-1780074788579.png",
+      "alt": "Procesadores",
+      "href": "#Procesadores"
     }
   },
   "sections": {

@@ -724,7 +724,8 @@
     "category": "Periféricos",
     "category2": "nuevos",
     "category3": "",
-    "excludeFromExport": false
+    "excludeFromExport": false,
+    "proximoIngreso": false
   },
   {
     "id": "PROD-MPEH1T84087F",
@@ -1400,7 +1401,7 @@
     "category2": "destacados",
     "category3": "",
     "excludeFromExport": false,
-    "proximoIngreso": true
+    "proximoIngreso": false
   },
   {
     "id": "prod-1778937108223",
@@ -1907,15 +1908,16 @@
     "subcategoria": "Auriculares",
     "inStock": true,
     "slug": "headset-gamer-aimzone-camuflado-yellow-az707",
-    "price": 0,
-    "priceLocal": 0,
+    "price": 26000,
+    "priceLocal": 22000,
     "banners": [],
     "priceNum": "26000",
-    "cashPrice": "21997",
+    "cashPrice": "22000",
     "gallery": "img\\productos\\aimzone yellow camuflado.png,img/productos/headset-gamer-aimzone-camuflado-yellow-az707/d-nq-np-2x-703450-mla96416600473-102025-f-1778163704828.jpg,img/productos/headset-gamer-aimzone-camuflado-yellow-az707/d-nq-np-2x-760183-mla99938778687-112025-f-1778163704903.jpg,img/productos/headset-gamer-aimzone-camuflado-yellow-az707/d-nq-np-2x-778033-mla95973309388-102025-f-1778163704960.jpg,img/productos/headset-gamer-aimzone-camuflado-yellow-az707/d-nq-np-2x-972715-mla95973447382-102025-f-1778163705008.jpg",
     "customButtons": [],
     "category3": "",
-    "excludeFromExport": true
+    "excludeFromExport": true,
+    "proximoIngreso": false
   },
   {
     "id": "prod-hub-aluminio-usb-3-0-multiplic-214",
