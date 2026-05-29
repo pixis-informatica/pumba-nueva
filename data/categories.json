@@ -22,13 +22,13 @@
     "name": "Almacenamiento",
     "icon": "💾",
     "active": true,
-    "customIcon": "img/categorias/cat-almacenamiento-1779318972586.png"
+    "customIcon": "img/categorias/cat-almacenamiento-1780086973898.png"
   },
   {
     "id": "Camara de Seguridad",
     "name": "Cámara de Seguridad",
     "icon": "📷",
-    "customIcon": "img/categorias/cat-camara de seguridad-1779316798155.png"
+    "customIcon": "img/categorias/cat-camara de seguridad-1780087172431.png"
   },
   {
     "id": "Cargadores",
@@ -58,7 +58,7 @@
     "id": "Memorias Ram",
     "name": "Memorias RAM",
     "icon": "🧠",
-    "customIcon": "img/categorias/cat-memorias ram-1779316705548.png"
+    "customIcon": "img/categorias/cat-memorias ram-1780085976546.png"
   },
   {
     "id": "monitores",
@@ -76,13 +76,13 @@
     "id": "Periféricos",
     "name": "Periféricos",
     "icon": "🖱️",
-    "customIcon": "img/categorias/cat-periféricos-1779316776843.png"
+    "customIcon": "img/categorias/cat-periféricos-1780085986831.png"
   },
   {
     "id": "Placas madres",
     "name": "Placas Madres",
     "icon": "🔲",
-    "customIcon": "img/categorias/cat-placas madres-1779316750982.png"
+    "customIcon": "img/categorias/cat-placas madres-1780086357270.png"
   },
   {
     "id": "Placas de video",
@@ -113,6 +113,6 @@
     "name": "Sillas y Escritorios Gamer",
     "icon": "🪑",
     "active": true,
-    "customIcon": "img/categorias/cat-sillas y escritorios gamer-1779318990528.png"
+    "customIcon": "img/categorias/cat-sillas y escritorios gamer-1780086667519.png"
   }
 ]

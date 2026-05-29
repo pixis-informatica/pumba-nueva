@@ -1401,7 +1401,7 @@
     "category2": "destacados",
     "category3": "",
     "excludeFromExport": false,
-    "proximoIngreso": true
+    "proximoIngreso": false
   },
   {
     "id": "prod-1778937108223",
@@ -1430,7 +1430,7 @@
     ],
     "category3": "destacados",
     "excludeFromExport": false,
-    "proximoIngreso": true
+    "proximoIngreso": false
   },
   {
     "img": "img\\des\\MONITOR-LG-ULTRAGEAR-180HZ 24.png",
