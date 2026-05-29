@@ -1450,23 +1450,22 @@ function resetZoomMobile() {
    ORDENAR (sin stock al final)
 ========================= */
 function ordenarProductos(productos, ordenarPorPrecio) {
+  // Guardar/usar índice original en el DOM para mantener el orden estable secundario
+  const allCards = [...productos.querySelectorAll('.card')];
+  allCards.forEach((card, index) => {
+    if (card.dataset.domIndex === undefined) {
+      card.dataset.domIndex = index;
+    }
+  });
 
-  // Apagar el orden si se desactiva el toggle
-  if (!ordenarPorPrecio) {
-    // Restaurar orden original via CSS order (no movemos nodos para no romper nth-child)
-    productos.querySelectorAll('.card').forEach(card => {
-      card.style.order = '';
-    });
+  // Re-aplicar filtro activo si hay uno
+  const filtroActivo = productos
+    .previousElementSibling
+    ?.querySelector('.btn-filtro.activo')
+    ?.dataset.filter;
 
-    // Re-aplicar filtro activo si hay uno
-    const filtroActivo = productos
-      .previousElementSibling
-      ?.querySelector('.btn-filtro.activo')
-      ?.dataset.filter;
-
-    if (!filtroActivo || filtroActivo === 'all') return;
-
-    productos.querySelectorAll('.card').forEach(card => {
+  if (filtroActivo && filtroActivo !== 'all') {
+    allCards.forEach(card => {
       const sub = (card.dataset.subcategoria || '').toLowerCase();
       if (sub === filtroActivo.toLowerCase()) {
         card.classList.remove('oculta');
@@ -1474,12 +1473,10 @@ function ordenarProductos(productos, ordenarPorPrecio) {
         card.classList.add('oculta');
       }
     });
-    return;
   }
 
-  // Ordenar usando CSS order (sin mover nodos, preserva nth-child)
-  const cards = [...productos.querySelectorAll('.card')]
-    .filter(card => !card.classList.contains('oculta'));
+  // Filtrar las visibles para el ordenamiento principal
+  const visibleCards = allCards.filter(card => !card.classList.contains('oculta'));
 
   const getPrice = (el) => {
     const cash = el.dataset.cashPrice || el.querySelector('.btn-add-cart')?.dataset.priceLocal;
@@ -1490,22 +1487,31 @@ function ordenarProductos(productos, ordenarPorPrecio) {
     return parseInt(text.replace(/\D/g, '')) || 0;
   };
 
-  cards.sort((a, b) => {
+  visibleCards.sort((a, b) => {
+    // Prioridad 1: Stock (stock > 0 siempre primero, sin stock al final)
     const aOff = a.classList.contains('sin-stock');
     const bOff = b.classList.contains('sin-stock');
     if (aOff && !bOff) return 1;
     if (!aOff && bOff) return -1;
-    return getPrice(a) - getPrice(b);
+
+    // Prioridad 2: Precio (si ordenarPorPrecio está activo) u Orden original del DOM
+    if (ordenarPorPrecio) {
+      return getPrice(a) - getPrice(b);
+    } else {
+      return parseInt(a.dataset.domIndex) - parseInt(b.dataset.domIndex);
+    }
   });
 
-  // Asignar CSS order segun el indice de sort
-  cards.forEach((card, i) => {
+  // Asignar el CSS order según el resultado del sort
+  visibleCards.forEach((card, i) => {
     card.style.order = i;
   });
 
-  // Las cards ocultas van al final con order alto
-  productos.querySelectorAll('.card.oculta').forEach(card => {
-    card.style.order = 9999;
+  // Las ocultas van al final
+  allCards.forEach(card => {
+    if (card.classList.contains('oculta')) {
+      card.style.order = 9999;
+    }
   });
 }
 /* =========================
@@ -1559,10 +1565,8 @@ window.reinicializarFiltrosYToggles = function() {
           }
         });
 
-        // 🔴 FIX MANTENER ORDEN: No desactivamos el toggle. Re-aplicamos el orden actual.
-        if (toggle) {
-          ordenarProductos(productos, toggle.checked);
-        }
+        // 🔴 FIX MANTENER ORDEN: Re-aplicamos el orden actual.
+        ordenarProductos(productos, toggle ? toggle.checked : false);
         aplicarPrecioEspecial();
       });
     });
@@ -1575,6 +1579,9 @@ window.reinicializarFiltrosYToggles = function() {
         aplicarPrecioEspecial();
       });
     }
+
+    // Inicialización de orden al cargar o renderizar
+    ordenarProductos(productos, toggle ? toggle.checked : false);
   });
 };
 

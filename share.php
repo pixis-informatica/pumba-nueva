@@ -229,23 +229,29 @@ if ($bannerId) {
     }
 
     if ($theCategory) {
-        // Buscamos el primer producto que pertenezca a esta categoría para usar su imagen
-        $prodsData = @file_get_contents(__DIR__ . '/data/products.json');
-        if ($prodsData) {
-            $products = json_decode($prodsData, true);
-            if (is_array($products)) {
-                foreach ($products as $p) {
-                    $assignedCats = [];
-                    if (isset($p['category'])) $assignedCats[] = strtolower(trim($p['category']));
-                    if (isset($p['category2'])) $assignedCats[] = strtolower(trim($p['category2']));
-                    if (isset($p['category3'])) $assignedCats[] = strtolower(trim($p['category3']));
+        // Si la categoría tiene un ícono personalizado (la preview del botón), lo usamos directamente.
+        // Si no tiene, buscamos el primer producto que pertenezca a esta categoría para usar su imagen.
+        if (!empty($theCategory['customIcon'])) {
+            $theCategory['img'] = $theCategory['customIcon'];
+        } else {
+            // Buscamos el primer producto que pertenezca a esta categoría para usar su imagen
+            $prodsData = @file_get_contents(__DIR__ . '/data/products.json');
+            if ($prodsData) {
+                $products = json_decode($prodsData, true);
+                if (is_array($products)) {
+                    foreach ($products as $p) {
+                        $assignedCats = [];
+                        if (isset($p['category'])) $assignedCats[] = strtolower(trim($p['category']));
+                        if (isset($p['category2'])) $assignedCats[] = strtolower(trim($p['category2']));
+                        if (isset($p['category3'])) $assignedCats[] = strtolower(trim($p['category3']));
 
-                    if (in_array(strtolower($theCategory['id']), $assignedCats)) {
-                        $rawImg = $p['img'] ?? '';
-                        $firstImg = trim(explode(',', $rawImg)[0]);
-                        if ($firstImg) {
-                            $theCategory['img'] = $firstImg;
-                            break;
+                        if (in_array(strtolower($theCategory['id']), $assignedCats)) {
+                            $rawImg = $p['img'] ?? '';
+                            $firstImg = trim(explode(',', $rawImg)[0]);
+                            if ($firstImg) {
+                                $theCategory['img'] = $firstImg;
+                                break;
+                            }
                         }
                     }
                 }
@@ -299,7 +305,8 @@ if ($theBanner) {
         if (!empty($CATEGORIAS_SEO[$catLower]['descripcion'])) {
             $description = $CATEGORIAS_SEO[$catLower]['descripcion'];
         }
-        if (!empty($CATEGORIAS_SEO[$catLower]['imagen'])) {
+        // Solo sobrescribimos la imagen con el SEO personalizado si la categoría NO tiene un customIcon
+        if (empty($theCategory['customIcon']) && !empty($CATEGORIAS_SEO[$catLower]['imagen'])) {
             $imgSource = $CATEGORIAS_SEO[$catLower]['imagen'];
         }
     }

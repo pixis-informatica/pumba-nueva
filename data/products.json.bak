@@ -47,7 +47,7 @@
     "title": "Adaptador Displayport Hdmi 4k 60hz",
     "price": 7000,
     "priceLocal": 5500,
-    "inStock": true
+    "inStock": false
   },
   {
     "img": "img/productos/Conversor kelyx hdmi VGa.png",
@@ -67,6 +67,43 @@
     "category": "Cables",
     "category2": "",
     "category3": ""
+  },
+  {
+    "id": "PROD-MPPRXRHMP0CO",
+    "title": "ADAPTADOR WIFI  Nano USB Mercusys 300Mbps MA12N",
+    "price": 12000,
+    "priceLocal": 10000,
+    "inStock": true,
+    "priceNum": "12000",
+    "cashPrice": "10000",
+    "img": "img/productos/adaptador-wifi-nano-usb-mercusys-300mbps-ma12n/nano-wifi-1780013089800.jpg",
+    "gallery": "img/productos/adaptador-wifi-nano-usb-mercusys-300mbps-ma12n/nano-wifi-1780013089800.jpg,img/productos/adaptador-wifi-nano-usb-mercusys-300mbps-ma12n/07-thumb20240513081742-1780013102396.jpg,img/productos/adaptador-wifi-nano-usb-mercusys-300mbps-ma12n/02-thumb20240513081624-1780013097673.jpg,img/productos/adaptador-wifi-nano-usb-mercusys-300mbps-ma12n/03-thumb20240513081639-1780013097695.jpg,img/productos/adaptador-wifi-nano-usb-mercusys-300mbps-ma12n/04-thumb20240513081657--1--1780013097715.jpg,img/productos/adaptador-wifi-nano-usb-mercusys-300mbps-ma12n/04-thumb20240513081657-1780013097748.jpg,img/productos/adaptador-wifi-nano-usb-mercusys-300mbps-ma12n/05-thumb20240513081713-1780013097764.jpg,img/productos/adaptador-wifi-nano-usb-mercusys-300mbps-ma12n/06-thumb20240513081729-1780013097782.jpg",
+    "desc": "📡 MA12N N300 Wireless Nano USB Adapter  \nConectividad Wi-Fi rápida y segura en tamaño compacto.\n\n🔌 Plug & Play: instalación automática con drivers integrados en Windows.\n\n📏 Nano Size: diseño ultracompacto, más pequeño que un pendrive.\n\n🔒 Seguridad mejorada: soporte para WPA3, mayor protección de contraseñas.\n\n⚡ Velocidad Wi-Fi: hasta 300 Mbps, ideal para navegación y streaming.\n\n💻 Compatibilidad: Windows 10 y 11 (32/64 bits).\n\n✅ Una solución práctica y portátil para convertir tu PC o notebook en un dispositivo inalámbrico con seguridad avanzada.",
+    "customButtons": [],
+    "banners": [],
+    "subcategoria": "Adaptador de red",
+    "category": "red",
+    "category2": "nuevos",
+    "category3": "",
+    "excludeFromExport": false
+  },
+  {
+    "img": "img/productos/Alcohol Isopropílico 1L.png",
+    "title": "Alcohol Isopropilico 1 Litro 99,9% Electronica Celular",
+    "desc": "Alcohol Isopropilico perfecto\npara la limpieza de componentes electronico",
+    "priceVisible": "$14.500",
+    "subcategoria": "Alcohol Isopropilico",
+    "price": 14500,
+    "priceLocal": 11500,
+    "inStock": true,
+    "id": "prod-kit-alc-isopropilico-1-litro-9-14",
+    "priceNum": "14500",
+    "cashPrice": "10000",
+    "customButtons": [],
+    "banners": [],
+    "category": "refrigeracion",
+    "category2": "Herramientas",
+    "category3": "Procesadores"
   },
   {
     "img": "img\\productos\\pasta termica arctic mx-4 8g.png",
@@ -295,7 +332,7 @@
   },
   {
     "id": "prod-1778171607065",
-    "title": "Cable de Red Cat6 Interior Kelyx por Metro",
+    "title": "Cable de Red Cat 6 Interior Kelyx por Metro",
     "img": "img/productos/mts-utp-cat-6-interior-kelyx/rollo-cat-6-1778171599935.jpg",
     "gallery": "img/productos/mts-utp-cat-6-interior-kelyx/rollo-cat-6-1778171599935.jpg",
     "desc": "Cable de Red Cat 6 (Interior)\n\nTipo: UTP (par trenzado sin blindaje)\n\nConector: RJ45 estándar\n\nVelocidad: 10 Gbps hasta 100 m\n\nFrecuencia: 250 MHz\n\nUso: instalaciones internas en hogares y oficinas\n\nAplicaciones: PCs, notebooks, consolas, routers, switches",
@@ -306,7 +343,7 @@
     "inStock": true,
     "slug": "mts-utp-cat-6-interior-kelyx",
     "price": 1000,
-    "priceLocal": 1000,
+    "priceLocal": 900,
     "banners": [],
     "priceNum": "1000",
     "cashPrice": "600",
@@ -497,6 +534,24 @@
     "excludeFromExport": false
   },
   {
+    "img": "img/productos/Cable usb a v8.png",
+    "title": "CABLE USB V8 Only Datos Y Carga JOYSTICKS DE PS4, AURICULARES INALAMBRICOS CON FICHAS V8",
+    "desc": "CABLE CARGA Y TRANSFERENCIA DE DATOS FICHA V8",
+    "priceVisible": "$1.000",
+    "subcategoria": "Cable V8",
+    "price": 1000,
+    "priceLocal": 500,
+    "inStock": true,
+    "id": "prod-usb-only-datos-y-carga-rapida-792",
+    "priceNum": "1000",
+    "cashPrice": "600",
+    "customButtons": [],
+    "banners": [],
+    "category": "Cargadores",
+    "category2": "",
+    "category3": ""
+  },
+  {
     "id": "PROD-MPIE02FZTL76",
     "title": "CAMARA DE SEGURIDAD DOMO 360° 2K MC210 Camara IP Mercusys Indoor 2K 3MP 360",
     "price": 32000,
@@ -648,7 +703,7 @@
     "banners": [],
     "subcategoria": "Joystick",
     "category": "Periféricos",
-    "category2": "",
+    "category2": "nuevos",
     "category3": "",
     "excludeFromExport": false
   },
@@ -667,7 +722,7 @@
     "banners": [],
     "subcategoria": "Joystick",
     "category": "Periféricos",
-    "category2": "",
+    "category2": "nuevos",
     "category3": "",
     "excludeFromExport": false
   },
@@ -868,6 +923,111 @@
     "gallery": "img/productos/hiksemi-ssd-128gb.png"
   },
   {
+    "id": "PROD-MPIFD44IOATL",
+    "title": "Memoria SODIMM DDR4 Corsair 8Gb 3200 MHz 1.2V (0615)",
+    "price": 141500,
+    "priceLocal": 133500,
+    "inStock": true,
+    "priceNum": "141500",
+    "cashPrice": "133500",
+    "img": "img/productos/memoria-sodimm-ddr4-corsair-8gb-3200-mhz-1-2v/vengance-sodimm-1-1779906108096.jpg",
+    "gallery": "img/productos/memoria-sodimm-ddr4-corsair-8gb-3200-mhz-1-2v/vengance-sodimm-1-1779906108096.jpg,img/productos/memoria-sodimm-ddr4-corsair-8gb-3200-mhz-1-2v/vengance-sodimm-1779906108202.jpg",
+    "desc": "🛡️ HIKSEMI Armor DDR4 8GB 3200MHz Black  \nVelocidad y estilo con disipador para tu PC.\n\nCapacidad: 8GB DDR4, perfecto para gaming y multitarea.\n\nVelocidad: 3200MHz para rendimiento ágil y estable.\n\nDiseño Armor Black: disipador metálico que mejora la refrigeración y aporta estética gamer.\n\nCompatibilidad: funciona con la mayoría de placas madre DDR4.\n\nDurabilidad: componentes de calidad que aseguran larga vida útil.\n\n🎮 Ideal para PC Gamer y usuarios que buscan potencia con diseño elegante",
+    "customButtons": [],
+    "banners": [],
+    "subcategoria": "DDR4",
+    "category": "Memorias Ram",
+    "category2": "nuevos",
+    "category3": "",
+    "excludeFromExport": false
+  },
+  {
+    "id": "PROD-MPIF8YN3FUNE",
+    "title": "Proces. AMD Ryzen 7 5700 AM4 SIN VIDEO CON COOLER (7856)",
+    "price": 292000,
+    "priceLocal": 276000,
+    "inStock": true,
+    "priceNum": "292000",
+    "cashPrice": "276000",
+    "img": "img/productos/proces-amd-ryzen-7-5700-am4-sin-video-con-cooler-7856/amd-ryzen-7-5700-5700-1779905656624.jpg",
+    "gallery": "img/productos/proces-amd-ryzen-7-5700-am4-sin-video-con-cooler-7856/amd-ryzen-7-5700-5700-1779905656624.jpg",
+    "desc": "🔥 AMD Ryzen 7 5700  \nPotencia y rendimiento para gaming y multitarea exigente.\n\n8 núcleos / 16 hilos para máxima fluidez en juegos y programas pesados.\n\nFrecuencia base de 3.7 GHz y boost de hasta 4.6 GHz.\n\nArquitectura Zen 3 optimizada para eficiencia y velocidad.\n\nCompatible con DDR4 3200MHz y placas madre AM4.\n\nIdeal para PC Gamer y entornos de trabajo creativo.\n\n💻 Rendimiento superior en FPS, multitarea sin cortes y estabilidad garantizada.",
+    "customButtons": [],
+    "banners": [],
+    "subcategoria": "AM4",
+    "category": "Procesadores",
+    "category2": "nuevos",
+    "category3": "",
+    "excludeFromExport": false
+  },
+  {
+    "id": "PROD-MPIFPUNPKK00",
+    "title": "Proces. AMD Ryzen 5 8400F AM5 SIN VIDEO CON COOLER (6736)",
+    "price": 292500,
+    "priceLocal": 276500,
+    "inStock": true,
+    "priceNum": "292500",
+    "cashPrice": "276500",
+    "img": "img/productos/proces-amd-ryzen-5-8400f-am5-sin-video-con-cooler-6736/amd-ryzen-5-8400f-1779905397919.jpg",
+    "gallery": "img/productos/proces-amd-ryzen-5-8400f-am5-sin-video-con-cooler-6736/amd-ryzen-5-8400f-1779905397919.jpg",
+    "desc": "Rendimiento moderno para gaming y productividad.\n\n6 núcleos / 12 hilos para multitarea fluida y juegos exigentes.\n\nFrecuencia base de 4.2 GHz con boost dinámico hasta 4.7 GHz.\n\nArquitectura Zen 5 optimizada para eficiencia y velocidad.\n\nCompatible con DDR5 de alta frecuencia y placas madre AM5.\n\nSin gráficos integrados: pensado para acompañar con GPU dedicada.\n\n🎮 Ideal para PC Gamer y creadores que buscan potencia confiable a un precio competitivo.",
+    "customButtons": [
+      {
+        "label": "review",
+        "link": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-8000-series/amd-ryzen-5-8400f.html"
+      }
+    ],
+    "banners": [],
+    "subcategoria": "AM5",
+    "category": "Procesadores",
+    "category2": "nuevos",
+    "category3": "",
+    "excludeFromExport": false
+  },
+  {
+    "id": "PROD-MPIF4QO77PR1",
+    "title": "Mother Gigabyte B550M K DDR4 AM4 (Serie 3000/4000/5000) (2764)",
+    "price": 147500,
+    "priceLocal": 139500,
+    "inStock": true,
+    "priceNum": "147500",
+    "cashPrice": "139500",
+    "img": "img\\productos\\MOTHER GIGA B550M K AM4 D4\\B550M K_01.png",
+    "gallery": "img\\productos\\MOTHER GIGA B550M K AM4 D4\\B550M K_01.png,img\\productos\\MOTHER GIGA B550M K AM4 D4\\B550M K_02.png,img\\productos\\MOTHER GIGA B550M K AM4 D4\\B550M K_03.png,img\\productos\\MOTHER GIGA B550M K AM4 D4\\B550M K_05.png",
+    "desc": "Placa madre confiable y lista para Ryzen.\n\nSocket AM4 compatible con procesadores AMD Ryzen de 3ª generación y superiores.\n\nChipset B550 con soporte para PCIe 4.0 en gráficas y almacenamiento.\n\nMemoria: hasta 128GB DDR4 en dual channel, con frecuencias de hasta 4733MHz (OC).\n\nAlmacenamiento: ranura M.2 NVMe PCIe 4.0/3.0 y puertos SATA III.\n\nConectividad: LAN Realtek GbE, audio HD, múltiples USB 3.2 y 2.0.\n\nFormato Micro ATX, ideal para gabinetes compactos.\n\n⚡ Perfecta para armar una PC Gamer o de trabajo con rendimiento sólido y soporte de última generación",
+    "customButtons": [
+      {
+        "label": "review",
+        "link": "https://www.gigabyte.com/ar/Motherboard/B550M-K-rev-10"
+      }
+    ],
+    "banners": [],
+    "subcategoria": "AM4",
+    "category": "Placas madres",
+    "category2": "nuevos",
+    "category3": "",
+    "excludeFromExport": false
+  },
+  {
+    "id": "PROD-MPIFGH0RJXMM",
+    "title": "Memoria DDR4 HIKSEMI 16Gb 3200 MHz Hiker (7222)",
+    "price": 235000,
+    "priceLocal": 231000,
+    "inStock": true,
+    "priceNum": "235000",
+    "cashPrice": "231000",
+    "img": "img/productos/memoria-ddr4-hiksemi-16gb-3200-mhz-hiker-7222/memoria-ram-dd4-hiksemi-hiker-1779906018809.jpg",
+    "gallery": "img/productos/memoria-ddr4-hiksemi-16gb-3200-mhz-hiker-7222/memoria-ram-dd4-hiksemi-hiker-1779906018809.jpg",
+    "desc": "🧠 HIKSEMI Hiker DDR4 16GB 3200MHz  \nRendimiento confiable y velocidad para tu PC.\n\nCapacidad: 16GB DDR4, ideal para multitarea y gaming.\n\nVelocidad: 3200MHz para cargas rápidas y respuesta fluida.\n\nDiseño Hiker: estabilidad y compatibilidad con la mayoría de placas madre DDR4.\n\nDurabilidad: componentes de calidad que aseguran larga vida útil.\n\nUso recomendado: PCs gamer, edición multimedia y trabajo intensivo.\n\n⚡ Mejora tu experiencia con más memoria, mayor velocidad y confianza en cada sesión.",
+    "customButtons": [],
+    "banners": [],
+    "subcategoria": "DDR4",
+    "category": "Memorias Ram",
+    "category2": "nuevos",
+    "category3": "",
+    "excludeFromExport": false
+  },
+  {
     "img": "img\\productos\\hiksemi-ssd-960gb.png",
     "gallery": "img\\productos\\hiksemi-ssd-960gb.png,img\\productos\\ssd sata hiksemi\\ab063b5fda46454599fd0433b73dcd49.jpg,img\\productos\\ssd sata hiksemi\\d1aade924808408baf923c5f32b11c45.jpg",
     "title": "Disco SSD hiksemi wave 960GB",
@@ -897,7 +1057,7 @@
     "subcategoria": "256GB",
     "price": 89000,
     "priceLocal": 85000,
-    "inStock": false,
+    "inStock": true,
     "id": "prod-disco-ssd-m-2-hiksemi-256gb-wa-481",
     "priceNum": "89000",
     "cashPrice": "85000",
@@ -930,6 +1090,13 @@
     "category": "almacenamiento",
     "category2": "",
     "category3": ""
+  },
+  {
+    "id": "prod-display-port-1-5m-8k-589",
+    "title": "Display port 1.5M 8k",
+    "price": 0,
+    "priceLocal": 0,
+    "inStock": false
   },
   {
     "img": "img/productos/escritorio-gamer-raptor-glow-station-se-rgb-via-usb-c-portavasos-porta-auricular/escritorio-rgb-gamer-raptor-1779125543530.jpg",
@@ -1160,6 +1327,157 @@
     "category3": "",
     "gallery": "img\\productos\\fuente raptor 800w 80 plus gold.png,img/productos/fuente-raptor-volt-1000w/00000000004179130002415420417913-3-800x800-1779127775579.jpg,img/productos/fuente-raptor-volt-1000w/00000000004179130003415430417913-2-800x800-1779127775629.jpg,img/productos/fuente-raptor-volt-1000w/00000000004179130004417020417913-4-800x800-1779127775780.jpg,img/productos/fuente-raptor-volt-1000w/0000000000417913415580417913-1-800x800-1779127775947.jpg",
     "excludeFromExport": false
+  },
+  {
+    "id": "prod-1780001581399",
+    "title": "PC GAMER RAPTOR THUNDER WHITE R7 5700+RTX 5050 VENTUS+512GB",
+    "img": "img/productos/pc-gamer-raptor-thunder-white-r7-5700-rtx-5050-ventus-512gb/pcgamer-white-5050-1780006397322.jpg",
+    "gallery": "img/productos/pc-gamer-raptor-thunder-white-r7-5700-rtx-5050-ventus-512gb/pcgamer-white-5050-1780006397322.jpg",
+    "desc": "🎮 PC Gamer Ryzen 7 5700 + RTX 5050 Ventus X2  \nPotencia avanzada y estilo gamer con RGB.\n\n⚙️ Procesador: AMD Ryzen 7 5700\n\n🧩 Motherboard: B550M-K (AM4)\n\n💾 Memoria RAM: Hiksemi Hiker DDR4 16GB 3200MHz\n\n🚀 Almacenamiento: SSD NVMe 512GB ultrarrápido\n\n🔌 Fuente: 650W 80 Plus Bronze\n\n🖼️ Gabinete Gamer: panel de vidrio templado con iluminación RGB\n\n🎨 Placa de video: NVIDIA RTX 5050 Ventus X2 8GB GDDR6",
+    "video": "",
+    "category": "Notebook",
+    "category2": "destacados",
+    "subcategoria": "PC",
+    "inStock": true,
+    "slug": "pc-gamer-raptor-thunder-white-r7-5700-rtx-5050-ventus-512gb",
+    "price": 1554500,
+    "priceLocal": 1489000,
+    "banners": [
+      "pccombo"
+    ],
+    "priceNum": "1554500",
+    "cashPrice": "1489000",
+    "customButtons": [],
+    "category3": "",
+    "excludeFromExport": true
+  },
+  {
+    "id": "prod-1780011383023",
+    "title": "PC GAMER ECLYPSE R7 5700+RTX5050+MONITOR",
+    "img": "img/productos/pc-gamer-eclypse-r7-5700-rtx5050-monitor-16gb-512gb/pc-gamer-eclypse-5050-monitor-1780011203989.jpg",
+    "gallery": "img/productos/pc-gamer-eclypse-r7-5700-rtx5050-monitor-16gb-512gb/pc-gamer-eclypse-5050-monitor-1780011203989.jpg",
+    "desc": "🎮 PC Gamer Ryzen 7 5700 + RTX 5050 Ventus X2  \nRendimiento extremo con refrigeración líquida y monitor gamer de alta frecuencia.\n\n⚙️ Procesador: AMD Ryzen 7 5700\n\n🧩 Motherboard: Gigabyte B550M-K (AM4)\n\n💾 Memoria RAM: Hiksemi Hiker DDR4 16GB 3200MHz\n\n🚀 Almacenamiento: SSD NVMe 512GB ultrarrápido\n\n🔌 Fuente: 650W 80 Plus Bronze\n\n🖼️ Gabinete Gamer: panel de vidrio templado con iluminación RGB\n\n🎨 Placa de video: NVIDIA RTX 5050 Ventus X2 8GB GDDR6\n\n💧 Refrigeración líquida: Raptor Aqua Core 360 – triple ventilador para máxima disipación térmica\n\n🖥️ Monitor: LG UltraGear 24\" IPS, 180Hz – fluidez y colores vibrantes para gaming competitivo\n\n🔥 Una configuración pensada para gamers exigentes y creadores de contenido, con potencia gráfica de última generación, refrigeración avanzada y un monitor de alto rendimiento para aprovechar cada frame.",
+    "video": "",
+    "category": "Notebook",
+    "category2": "destacados",
+    "subcategoria": "PC",
+    "inStock": true,
+    "slug": "pc-gamer-eclypse-r7-5700-rtx5050-monitor-16gb-512gb",
+    "price": 1954500,
+    "priceLocal": 1863000,
+    "banners": [
+      "pccombo"
+    ],
+    "priceNum": "1954500",
+    "cashPrice": "1863000",
+    "customButtons": [],
+    "category3": "",
+    "excludeFromExport": true
+  },
+  {
+    "img": "img\\productos\\Mini pc kelyx 512gb.png",
+    "gallery": "img\\productos\\Mini pc kelyx 512gb.png,img\\productos\\Mini Pc Kelyx Intel Core i3-1215U 8G M.2 256G Win 11 Pro (5499)\\0417807 _2.png,img\\productos\\Mini Pc Kelyx Intel Core i3-1215U 8G M.2 256G Win 11 Pro (5499)\\0417807 _5.jpg,img\\productos\\Mini Pc Kelyx Intel Core i3-1215U 8G M.2 256G Win 11 Pro (5499)\\000000000041780758507Tabla-specs---0417807---MiniPC.png",
+    "title": "Mini Pc Kelyx Intel Core i3-1215U 8G M.2 256G Win 11 Pro",
+    "desc": "- 🧠 CPU: Intel Core i3‑1215U\n- 🧩 Memoria RAM: 8 GB DDR4 SO‑DIMM\n- 💾 Almacenamiento: M.2 PCIe Gen3 – 256 GB\n- 📡 Wi-Fi 5 + Bluetooth 5.1\n- 🔌 Puertos: USB, USB-C, HDMI, DisplayPort, LAN",
+    "priceVisible": "$645.500",
+    "subcategoria": "Mini pc",
+    "price": 655500,
+    "priceLocal": 645000,
+    "inStock": true,
+    "id": "prod-mini-pc-kelyx-intel-core-i3-12-474",
+    "priceNum": "651000",
+    "cashPrice": "640500",
+    "customButtons": [
+      {
+        "label": "review",
+        "link": "https://www.kelyx.com.ar/mini-pc-kelyx-intel-core-i3-1215u-8g-m-2-256g-win-11-pro--det--0417807"
+      }
+    ],
+    "banners": [
+      "notebooks"
+    ],
+    "category": "Notebook",
+    "category2": "destacados",
+    "category3": "",
+    "excludeFromExport": false
+  },
+  {
+    "id": "prod-1778937108223",
+    "title": "Monitor Gamer Raptor Hawk Eye 24\" Frameless IPS FHD 200Hz 1Ms HDMI-DP",
+    "img": "img/productos/monitor-gamer-raptor-hawk-eye-24-frameless-ips-fhd-200hz-1ms-hdmi-dp/raptor-hawk-heye-24-1778936985994.jpg",
+    "gallery": "img/productos/monitor-gamer-raptor-hawk-eye-24-frameless-ips-fhd-200hz-1ms-hdmi-dp/raptor-hawk-heye-24-1778936985994.jpg,img/productos/monitor-gamer-raptor-hawk-eye-24-frameless-ips-fhd-200hz-1ms-hdmi-dp/raptor-hawk-heye-24--version-1778936986024.jpg,img/productos/monitor-gamer-raptor-hawk-eye-24-frameless-ips-fhd-200hz-1ms-hdmi-dp/raptor-hawk-heye-24--version1-1778936986075.jpg,img/productos/monitor-gamer-raptor-hawk-eye-24-frameless-ips-fhd-200hz-1ms-hdmi-dp/raptor-hawk-heye-24--version4-1778936986104.jpg",
+    "desc": "📺 Pantalla: 23.8 IPS sin bordes\n\n🎮 Frecuencia de actualización: 200 Hz\n\n⚡ Tiempo de respuesta: 1 ms\n\n🌈 Color: 16,7 M – 100% sRGB\n\n🔆 Brillo: 300 cd/m²\n\n🖼️ Resolución: Full HD 1920x1080\n\n👀 Ángulo de visión: 178° (CR>10)\n\n⚖️ Contraste: 1000:1\n\n🔌 Conectividad\n🔗 HDMI 2.0: 1 puerto\n\n🔗 DisplayPort 1.2: 1 puerto\n\n🔗 USB 2.0: 1 puerto\n\n🔌 DC Power: 1 puerto\n\n🛠️ Diseño estructural\n🧩 Soporte fijo estándar\n\n↕️ Inclinación: -5° / +20°\n\n🔒 Bloqueo antirrobo\n\n🔘 Botón de encendido/apagado\n\n⚡ Consumo\n🔋 Máx. consumo: ≤30 W\n\n🌙 Modo espera: 0,5 W",
+    "video": "",
+    "category": "monitores",
+    "category2": "nuevos",
+    "subcategoria": "200hz",
+    "inStock": true,
+    "slug": "monitor-gamer-raptor-hawk-eye-24-frameless-ips-fhd-200hz-1ms-hdmi-dp",
+    "price": 199500,
+    "priceLocal": 187500,
+    "banners": [
+      "monitor"
+    ],
+    "priceNum": "198000",
+    "cashPrice": "186000",
+    "customButtons": [
+      {
+        "label": "review",
+        "link": "https://www.raptor-gaming.com.ar/monitor-gamer-raptor-hawk-eye-24-frameless-ips-fhd-200hz-1ms-hdmi-dp-negro--det--0418276"
+      }
+    ],
+    "category3": "destacados",
+    "excludeFromExport": false
+  },
+  {
+    "img": "img\\des\\MONITOR-LG-ULTRAGEAR-180HZ 24.png",
+    "gallery": "img\\des\\MONITOR-LG-ULTRAGEAR-180HZ 24.png,img\\des\\MONITOR-LG-ULTRAGEAR-180HZ 24 des 2.png,img\\des\\MONITOR-LG-ULTRAGEAR-180HZ 24 des.png",
+    "title": "MONITOR LG 24 ULTRAGEAR 24GS60F BORDERLESS 180 Hz (II)",
+    "desc": "✨ Pantalla Full HD de 23,8 pulgadas (1920 x 1080)\n⚡ IPS 1 ms (GtG)\n🎮 Frecuencia de actualización de 180 Hz\n🌈 HDR10 / sRGB 99% (Typ.)\n🖼️ Diseño de 3 lados prácticamente sin bordes\n🖥️ Compatible con NVIDIA® G-SYNC® / AMD FreeSync",
+    "priceVisible": "$257.000",
+    "subcategoria": "100hz",
+    "price": 260000,
+    "priceLocal": 251000,
+    "inStock": true,
+    "id": "prod-monitor-lg-24-ultragear-24gs60-436",
+    "priceNum": "257000",
+    "cashPrice": "249000",
+    "customButtons": [
+      {
+        "label": "review",
+        "link": "https://www.lg.com/ar/monitores/lg-24gs60f-b"
+      }
+    ],
+    "banners": [],
+    "category": "monitores",
+    "category2": "nuevos",
+    "category3": "destacados"
+  },
+  {
+    "img": "img\\productos\\rtx 5060 ventus white.png",
+    "gallery": "img\\productos\\rtx 5060 ventus white.png,img\\productos\\VGA MSI GeForce RTX 5060 8G VENTUS 2X OC WHITE (4296)\\msi-8g-ventus-2x-oc-thermal-heat-pipes.png,img\\productos\\VGA MSI GeForce RTX 5060 8G VENTUS 2X OC WHITE (4296)\\msi-ventus-thermal-torx-fan.png,img\\productos\\VGA MSI GeForce RTX 5060 8G VENTUS 2X OC WHITE (4296)\\product_1745313867fc830217de0b3be0638273c1c09fe9d2 (1).webp,img\\productos\\VGA MSI GeForce RTX 5060 8G VENTUS 2X OC WHITE (4296)\\product_17453138693d3261cc10c4389ca376e5d822c605cc.webp",
+    "title": "VGA MSI GeForce RTX 5060 8G VENTUS 2X OC WHITE",
+    "desc": "PCI Express® Gen 5 x16, 2535 MHz, 3840 CUDA Cores, 28 Gbps, 8GB GDDR7, 128-bit, DisplayPort x3, HDMI x1, Fuente mínima 550W",
+    "priceVisible": "$728.500",
+    "subcategoria": "nvidia",
+    "price": 735000,
+    "priceLocal": 702500,
+    "inStock": true,
+    "id": "prod-vga-msi-geforce-rtx-5060-8g-ve-357",
+    "priceNum": "728500",
+    "cashPrice": "697000",
+    "customButtons": [
+      {
+        "label": "review",
+        "link": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-8G-VENTUS-2X-OC-WHITE/Overview"
+      }
+    ],
+    "banners": [
+      "rtx5060"
+    ],
+    "category": "Placas de video",
+    "category2": "destacados",
+    "category3": ""
   },
   {
     "id": "prod-1778107250638",
@@ -1618,24 +1936,6 @@
     "excludeFromExport": false
   },
   {
-    "img": "img/productos/Alcohol Isopropílico 1L.png",
-    "title": "Kit Alc Isopropilico 1 Litro 99,9% Electronica Celular",
-    "desc": "Alcohol Isopropilico perfecto\npara la limpieza de componentes electronico",
-    "priceVisible": "$14.500",
-    "subcategoria": "Alcohol Isopropilico",
-    "price": 14500,
-    "priceLocal": 11500,
-    "inStock": true,
-    "id": "prod-kit-alc-isopropilico-1-litro-9-14",
-    "priceNum": "14500",
-    "cashPrice": "10000",
-    "customButtons": [],
-    "banners": [],
-    "category": "refrigeracion",
-    "category2": "Herramientas",
-    "category3": "Procesadores"
-  },
-  {
     "img": "img/productos/Kit de destornillador 115.png",
     "gallery": "img\\productos\\Kit Herramientas Destornilladores Precision 115 En 1\\D_NQ_NP_2X_729904-MLA98730390064_112025-F.webp,img\\productos\\Kit Herramientas Destornilladores Precision 115 En 1\\D_NQ_NP_2X_908878-MLA99208657035_112025-F.webp,img\\productos\\Kit Herramientas Destornilladores Precision 115 En 1\\D_NQ_NP_2X_921647-MLA109899593471_032026-F.webp,img\\productos\\Kit Herramientas Destornilladores Precision 115 En 1\\D_NQ_NP_2X_975546-MLA98730429470_112025-F.webp,img\\productos\\Kit Herramientas Destornilladores Precision 115 En 1\\D_NQ_NP_2X_978500-MLA99208755243_112025-F.webp",
     "title": "Kit de Destornilladores Precision 115 En 1",
@@ -1713,23 +2013,11 @@
     "excludeFromExport": false
   },
   {
-    "id": "PROD-MPIFGH0RJXMM",
-    "title": "Memoria DDR4 HIKSEMI 16Gb 3200 MHz Hiker (7222)",
-    "price": 235000,
-    "priceLocal": 231000,
-    "inStock": true,
-    "priceNum": "234500",
-    "cashPrice": "230000",
-    "img": "img/productos/memoria-ddr4-hiksemi-16gb-3200-mhz-hiker-7222/memoria-ram-dd4-hiksemi-hiker-1779906018809.jpg",
-    "gallery": "img/productos/memoria-ddr4-hiksemi-16gb-3200-mhz-hiker-7222/memoria-ram-dd4-hiksemi-hiker-1779906018809.jpg",
-    "desc": "🧠 HIKSEMI Hiker DDR4 16GB 3200MHz  \nRendimiento confiable y velocidad para tu PC.\n\nCapacidad: 16GB DDR4, ideal para multitarea y gaming.\n\nVelocidad: 3200MHz para cargas rápidas y respuesta fluida.\n\nDiseño Hiker: estabilidad y compatibilidad con la mayoría de placas madre DDR4.\n\nDurabilidad: componentes de calidad que aseguran larga vida útil.\n\nUso recomendado: PCs gamer, edición multimedia y trabajo intensivo.\n\n⚡ Mejora tu experiencia con más memoria, mayor velocidad y confianza en cada sesión.",
-    "customButtons": [],
-    "banners": [],
-    "subcategoria": "DDR4",
-    "category": "Memorias Ram",
-    "category2": "",
-    "category3": "",
-    "excludeFromExport": false
+    "id": "prod-memoria-ddr4-8-gb-3200-mhz-hik-93",
+    "title": "Memoria Ddr4 8 Gb 3200 MHz Hiksemi Armor",
+    "price": 0,
+    "priceLocal": 0,
+    "inStock": false
   },
   {
     "id": "PROD-MPIF6RPNKA12",
@@ -1737,7 +2025,7 @@
     "price": 138500,
     "priceLocal": 131500,
     "inStock": true,
-    "priceNum": "138000",
+    "priceNum": "138500",
     "cashPrice": "131500",
     "img": "img/productos/memoria-ddr4-hiksemi-8gb-3200-mhz-armor-c-disipador-black-2566/memoria-ram-ddr4-hiksemi-armor-8gb-3200mhz-1779906151866.jpg",
     "gallery": "img/productos/memoria-ddr4-hiksemi-8gb-3200-mhz-armor-c-disipador-black-2566/memoria-ram-ddr4-hiksemi-armor-8gb-3200mhz-1779906151866.jpg",
@@ -1746,7 +2034,7 @@
     "banners": [],
     "subcategoria": "DDR4",
     "category": "Memorias Ram",
-    "category2": "",
+    "category2": "nuevos",
     "category3": "",
     "excludeFromExport": false
   },
@@ -1777,7 +2065,7 @@
     "category": "Memorias Ram",
     "category2": "",
     "subcategoria": "DDR5",
-    "inStock": true,
+    "inStock": false,
     "slug": "memoria-ddr5-corsair-8gb-5200-mhz",
     "price": 257500,
     "priceLocal": 241500,
@@ -1827,6 +2115,13 @@
     "priceLocal": 0
   },
   {
+    "id": "prod-memoria-ram-ddr4-16gb-hiksemi--422",
+    "title": "Memoria ram ddr4 16gb hiksemi hiker",
+    "price": 0,
+    "priceLocal": 0,
+    "inStock": false
+  },
+  {
     "title": "Memoria ram ddr5 16gb hiksemi armor",
     "img": "img/productos/memoria ram ddr4 hiksemi armor 8gb 3200mhz.png",
     "inStock": false,
@@ -1842,25 +2137,6 @@
     "category2": "",
     "category3": "",
     "priceLocal": 0
-  },
-  {
-    "id": "PROD-MPIFD44IOATL",
-    "title": "Memoria SODIMM DDR4 Corsair 8Gb 3200 MHz 1.2V (0615)",
-    "price": 141500,
-    "priceLocal": 133500,
-    "inStock": true,
-    "priceNum": "141000",
-    "cashPrice": "133500",
-    "img": "img/productos/memoria-sodimm-ddr4-corsair-8gb-3200-mhz-1-2v/vengance-sodimm-1-1779906108096.jpg",
-    "gallery": "img/productos/memoria-sodimm-ddr4-corsair-8gb-3200-mhz-1-2v/vengance-sodimm-1-1779906108096.jpg,img/productos/memoria-sodimm-ddr4-corsair-8gb-3200-mhz-1-2v/vengance-sodimm-1779906108202.jpg",
-    "desc": "🛡️ HIKSEMI Armor DDR4 8GB 3200MHz Black  \nVelocidad y estilo con disipador para tu PC.\n\nCapacidad: 8GB DDR4, perfecto para gaming y multitarea.\n\nVelocidad: 3200MHz para rendimiento ágil y estable.\n\nDiseño Armor Black: disipador metálico que mejora la refrigeración y aporta estética gamer.\n\nCompatibilidad: funciona con la mayoría de placas madre DDR4.\n\nDurabilidad: componentes de calidad que aseguran larga vida útil.\n\n🎮 Ideal para PC Gamer y usuarios que buscan potencia con diseño elegante",
-    "customButtons": [],
-    "banners": [],
-    "subcategoria": "DDR4",
-    "category": "Memorias Ram",
-    "category2": "",
-    "category3": "",
-    "excludeFromExport": false
   },
   {
     "img": "img\\des\\METAL LIQUIDO LK-128 PERFECTO PARA PS5 des.png",
@@ -1935,33 +2211,6 @@
     "category3": ""
   },
   {
-    "img": "img\\productos\\Mini pc kelyx 512gb.png",
-    "gallery": "img\\productos\\Mini pc kelyx 512gb.png,img\\productos\\Mini Pc Kelyx Intel Core i3-1215U 8G M.2 256G Win 11 Pro (5499)\\0417807 _2.png,img\\productos\\Mini Pc Kelyx Intel Core i3-1215U 8G M.2 256G Win 11 Pro (5499)\\0417807 _5.jpg,img\\productos\\Mini Pc Kelyx Intel Core i3-1215U 8G M.2 256G Win 11 Pro (5499)\\000000000041780758507Tabla-specs---0417807---MiniPC.png",
-    "title": "Mini Pc Kelyx Intel Core i3-1215U 8G M.2 256G Win 11 Pro",
-    "desc": "- 🧠 CPU: Intel Core i3‑1215U\n- 🧩 Memoria RAM: 8 GB DDR4 SO‑DIMM\n- 💾 Almacenamiento: M.2 PCIe Gen3 – 256 GB\n- 📡 Wi-Fi 5 + Bluetooth 5.1\n- 🔌 Puertos: USB, USB-C, HDMI, DisplayPort, LAN",
-    "priceVisible": "$645.500",
-    "subcategoria": "Mini pc",
-    "price": 655500,
-    "priceLocal": 645000,
-    "inStock": true,
-    "id": "prod-mini-pc-kelyx-intel-core-i3-12-474",
-    "priceNum": "651000",
-    "cashPrice": "640500",
-    "customButtons": [
-      {
-        "label": "review",
-        "link": "https://www.kelyx.com.ar/mini-pc-kelyx-intel-core-i3-1215u-8g-m-2-256g-win-11-pro--det--0417807"
-      }
-    ],
-    "banners": [
-      "notebooks"
-    ],
-    "category": "Notebook",
-    "category2": "destacados",
-    "category3": "",
-    "excludeFromExport": false
-  },
-  {
     "img": "img/productos/monitor-asus-22-full-hd-100hz/monitor-asus-100hz-va-22-des-1778161804236.jpg",
     "gallery": "img/productos/monitor-asus-22-full-hd-100hz/monitor-asus-100hz-va-22-des-1778161804236.jpg,img/productos/monitor-asus-22-full-hd-100hz/monitor-asus-100hz-va-22-des-1778161804390.jpg",
     "title": "MONITOR ASUS 22 FULL HD 100HZ",
@@ -1984,34 +2233,6 @@
     "category": "monitores",
     "category2": "destacados",
     "category3": "",
-    "excludeFromExport": false
-  },
-  {
-    "id": "prod-1778937108223",
-    "title": "Monitor Gamer Raptor Hawk Eye 24\" Frameless IPS FHD 200Hz 1Ms HDMI-DP",
-    "img": "img/productos/monitor-gamer-raptor-hawk-eye-24-frameless-ips-fhd-200hz-1ms-hdmi-dp/raptor-hawk-heye-24-1778936985994.jpg",
-    "gallery": "img/productos/monitor-gamer-raptor-hawk-eye-24-frameless-ips-fhd-200hz-1ms-hdmi-dp/raptor-hawk-heye-24-1778936985994.jpg,img/productos/monitor-gamer-raptor-hawk-eye-24-frameless-ips-fhd-200hz-1ms-hdmi-dp/raptor-hawk-heye-24--version-1778936986024.jpg,img/productos/monitor-gamer-raptor-hawk-eye-24-frameless-ips-fhd-200hz-1ms-hdmi-dp/raptor-hawk-heye-24--version1-1778936986075.jpg,img/productos/monitor-gamer-raptor-hawk-eye-24-frameless-ips-fhd-200hz-1ms-hdmi-dp/raptor-hawk-heye-24--version4-1778936986104.jpg",
-    "desc": "📺 Pantalla: 23.8 IPS sin bordes\n\n🎮 Frecuencia de actualización: 200 Hz\n\n⚡ Tiempo de respuesta: 1 ms\n\n🌈 Color: 16,7 M – 100% sRGB\n\n🔆 Brillo: 300 cd/m²\n\n🖼️ Resolución: Full HD 1920x1080\n\n👀 Ángulo de visión: 178° (CR>10)\n\n⚖️ Contraste: 1000:1\n\n🔌 Conectividad\n🔗 HDMI 2.0: 1 puerto\n\n🔗 DisplayPort 1.2: 1 puerto\n\n🔗 USB 2.0: 1 puerto\n\n🔌 DC Power: 1 puerto\n\n🛠️ Diseño estructural\n🧩 Soporte fijo estándar\n\n↕️ Inclinación: -5° / +20°\n\n🔒 Bloqueo antirrobo\n\n🔘 Botón de encendido/apagado\n\n⚡ Consumo\n🔋 Máx. consumo: ≤30 W\n\n🌙 Modo espera: 0,5 W",
-    "video": "",
-    "category": "monitores",
-    "category2": "nuevos",
-    "subcategoria": "200hz",
-    "inStock": true,
-    "slug": "monitor-gamer-raptor-hawk-eye-24-frameless-ips-fhd-200hz-1ms-hdmi-dp",
-    "price": 199500,
-    "priceLocal": 187500,
-    "banners": [
-      "monitor"
-    ],
-    "priceNum": "198000",
-    "cashPrice": "186000",
-    "customButtons": [
-      {
-        "label": "review",
-        "link": "https://www.raptor-gaming.com.ar/monitor-gamer-raptor-hawk-eye-24-frameless-ips-fhd-200hz-1ms-hdmi-dp-negro--det--0418276"
-      }
-    ],
-    "category3": "destacados",
     "excludeFromExport": false
   },
   {
@@ -2113,30 +2334,6 @@
     "category3": ""
   },
   {
-    "img": "img\\des\\MONITOR-LG-ULTRAGEAR-180HZ 24.png",
-    "gallery": "img\\des\\MONITOR-LG-ULTRAGEAR-180HZ 24.png,img\\des\\MONITOR-LG-ULTRAGEAR-180HZ 24 des 2.png,img\\des\\MONITOR-LG-ULTRAGEAR-180HZ 24 des.png",
-    "title": "MONITOR LG 24 ULTRAGEAR 24GS60F BORDERLESS 180 Hz (II)",
-    "desc": "✨ Pantalla Full HD de 23,8 pulgadas (1920 x 1080)\n⚡ IPS 1 ms (GtG)\n🎮 Frecuencia de actualización de 180 Hz\n🌈 HDR10 / sRGB 99% (Typ.)\n🖼️ Diseño de 3 lados prácticamente sin bordes\n🖥️ Compatible con NVIDIA® G-SYNC® / AMD FreeSync",
-    "priceVisible": "$257.000",
-    "subcategoria": "100hz",
-    "price": 260000,
-    "priceLocal": 251000,
-    "inStock": true,
-    "id": "prod-monitor-lg-24-ultragear-24gs60-436",
-    "priceNum": "257000",
-    "cashPrice": "249000",
-    "customButtons": [
-      {
-        "label": "review",
-        "link": "https://www.lg.com/ar/monitores/lg-24gs60f-b"
-      }
-    ],
-    "banners": [],
-    "category": "monitores",
-    "category2": "nuevos",
-    "category3": "destacados"
-  },
-  {
     "img": "img\\productos\\A620M H GIGABYTE\\A620M H_20260406\\A620M H_01.png",
     "gallery": "img\\productos\\A620M H GIGABYTE\\A620M H_20260406\\A620M H_01.png,img\\productos\\A620M H GIGABYTE\\A620M H_20260406\\A620M H_02.png,img\\productos\\A620M H GIGABYTE\\A620M H_20260406\\A620M H_03.png,img\\productos\\A620M H GIGABYTE\\A620M H_20260406\\A620M H_04.png,img\\productos\\A620M H GIGABYTE\\A620M H_20260406\\A620M H_05.png",
     "title": "MOTHER GIGA A620M H AM5 D5 (Series 7000/8000)",
@@ -2166,30 +2363,6 @@
     "price": 0,
     "priceLocal": 0,
     "inStock": false
-  },
-  {
-    "id": "PROD-MPIF4QO77PR1",
-    "title": "Mother Gigabyte B550M K DDR4 AM4 (Serie 3000/4000/5000) (2764)",
-    "price": 147500,
-    "priceLocal": 139500,
-    "inStock": true,
-    "priceNum": "147000",
-    "cashPrice": "139000",
-    "img": "img\\productos\\MOTHER GIGA B550M K AM4 D4\\B550M K_01.png",
-    "gallery": "img\\productos\\MOTHER GIGA B550M K AM4 D4\\B550M K_01.png,img\\productos\\MOTHER GIGA B550M K AM4 D4\\B550M K_02.png,img\\productos\\MOTHER GIGA B550M K AM4 D4\\B550M K_03.png,img\\productos\\MOTHER GIGA B550M K AM4 D4\\B550M K_05.png",
-    "desc": "Placa madre confiable y lista para Ryzen.\n\nSocket AM4 compatible con procesadores AMD Ryzen de 3ª generación y superiores.\n\nChipset B550 con soporte para PCIe 4.0 en gráficas y almacenamiento.\n\nMemoria: hasta 128GB DDR4 en dual channel, con frecuencias de hasta 4733MHz (OC).\n\nAlmacenamiento: ranura M.2 NVMe PCIe 4.0/3.0 y puertos SATA III.\n\nConectividad: LAN Realtek GbE, audio HD, múltiples USB 3.2 y 2.0.\n\nFormato Micro ATX, ideal para gabinetes compactos.\n\n⚡ Perfecta para armar una PC Gamer o de trabajo con rendimiento sólido y soporte de última generación",
-    "customButtons": [
-      {
-        "label": "review",
-        "link": "https://www.gigabyte.com/ar/Motherboard/B550M-K-rev-10"
-      }
-    ],
-    "banners": [],
-    "subcategoria": "AM4",
-    "category": "Placas madres",
-    "category2": "",
-    "category3": "",
-    "excludeFromExport": false
   },
   {
     "img": "img\\productos\\A520M PRO MSI.png",
@@ -2405,7 +2578,7 @@
     "desc": "✅🔌 Interfaz: USB‑A o USB‑C (según el modelo)\n✅🖱️ Número de botones: 3 (izquierdo, derecho, medio con scroll)\n✅🔦 Motor del sensor: Óptico\n✅🎯 Resolución (DPI): 1200\n✅📏 Longitud del cable: 1.5 m\n✅⚖️ Peso: aprox. 85g",
     "subcategoria": "mouse",
     "priceVisible": "$5.000",
-    "price": 6000,
+    "price": 6500,
     "priceLocal": 5000,
     "inStock": true,
     "id": "prod-mouse-genius-usb-dx-123-blue-695",
@@ -2752,8 +2925,8 @@
     "subcategoria": "Joystick",
     "inStock": true,
     "slug": "p4-joystick-ps4-bouble-motor-vibration-4-wireless-controller",
-    "price": 27000,
-    "priceLocal": 23000,
+    "price": 27500,
+    "priceLocal": 23500,
     "banners": [],
     "priceNum": "26000",
     "cashPrice": "23000",
@@ -2919,40 +3092,18 @@
     "category3": ""
   },
   {
-    "img": "img\\productos\\pcgamer 16gb.png",
+    "id": "prod-pc-raptor-thunderstrike-white--287",
     "title": "PC RAPTOR THUNDERSTRIKE WHITE R5 5600GT",
-    "desc": "- ⚙️ Procesador: AMD Ryzen 5 5600GT\n- 🧩 Motherboard: MSI A520M-A PRO\n- 💾 Memoria 2X: Hiksemi Hiker 8GB DDR4 3200MHz\n- 🚀 Almacenamiento:ADATA Legend 700 nvme 256gb Pci 3.0\n- 🔌 Fuente: Raptor Volt 650W 80 Plus Bronze\n- 🌈 Gabinete: Raptor Thunderstrike White RGB",
-    "priceVisible": "$846.500",
-    "subcategoria": "PC",
     "price": 0,
     "priceLocal": 0,
-    "inStock": false,
-    "id": "prod-pc-raptor-thunderstrike-white--287",
-    "priceNum": "901500",
-    "cashPrice": "901500",
-    "customButtons": [],
-    "banners": [],
-    "category": "Notebook",
-    "category2": "",
-    "category3": ""
+    "inStock": false
   },
   {
-    "img": "img\\productos\\pcgamer 8gb.png",
+    "id": "prod-pc-raptor-vortex-r5-5600gt-694",
     "title": "PC RAPTOR VORTEX R5 5600GT",
-    "desc": "- ⚙️ Procesador: AMD Ryzen 5 5600GT\n- 🧩 Motherboard: MSI A520M-A PRO\n- 💾 Memoria: Hiksemi Hiker 8GB DDR4 3200MHz\n- 🚀 Almacenamiento: Patriot P210 256GB SATA III\n- 🔌 Fuente: Raptor Volt 650W 80 Plus Bronze\n- 🌈 Gabinete: Raptor Vortex RGB",
-    "priceVisible": "$702.500",
-    "subcategoria": "PC",
     "price": 0,
     "priceLocal": 0,
-    "inStock": false,
-    "id": "prod-pc-raptor-vortex-r5-5600gt-694",
-    "priceNum": "702500",
-    "cashPrice": "702500",
-    "customButtons": [],
-    "banners": [],
-    "category": "Notebook",
-    "category2": "",
-    "category3": ""
+    "inStock": false
   },
   {
     "img": "img/productos/Pen drive 128gb 3.0.png",
@@ -3075,49 +3226,6 @@
     "gallery": "img/productos/Ryzen 5 5600gt.png"
   },
   {
-    "id": "PROD-MPIFPUNPKK00",
-    "title": "Proces. AMD Ryzen 5 8400F AM5 SIN VIDEO CON COOLER (6736)",
-    "price": 292500,
-    "priceLocal": 276500,
-    "inStock": true,
-    "priceNum": "291500",
-    "cashPrice": "275500",
-    "img": "img/productos/proces-amd-ryzen-5-8400f-am5-sin-video-con-cooler-6736/amd-ryzen-5-8400f-1779905397919.jpg",
-    "gallery": "img/productos/proces-amd-ryzen-5-8400f-am5-sin-video-con-cooler-6736/amd-ryzen-5-8400f-1779905397919.jpg",
-    "desc": "Rendimiento moderno para gaming y productividad.\n\n6 núcleos / 12 hilos para multitarea fluida y juegos exigentes.\n\nFrecuencia base de 4.2 GHz con boost dinámico hasta 4.7 GHz.\n\nArquitectura Zen 5 optimizada para eficiencia y velocidad.\n\nCompatible con DDR5 de alta frecuencia y placas madre AM5.\n\nSin gráficos integrados: pensado para acompañar con GPU dedicada.\n\n🎮 Ideal para PC Gamer y creadores que buscan potencia confiable a un precio competitivo.",
-    "customButtons": [
-      {
-        "label": "review",
-        "link": "https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen/ryzen-8000-series/amd-ryzen-5-8400f.html"
-      }
-    ],
-    "banners": [],
-    "subcategoria": "AM5",
-    "category": "Procesadores",
-    "category2": "",
-    "category3": "",
-    "excludeFromExport": false
-  },
-  {
-    "id": "PROD-MPIF8YN3FUNE",
-    "title": "Proces. AMD Ryzen 7 5700 AM4 SIN VIDEO CON COOLER (7856)",
-    "price": 292000,
-    "priceLocal": 276000,
-    "inStock": true,
-    "priceNum": "291000",
-    "cashPrice": "275000",
-    "img": "img/productos/proces-amd-ryzen-7-5700-am4-sin-video-con-cooler-7856/amd-ryzen-7-5700-5700-1779905656624.jpg",
-    "gallery": "img/productos/proces-amd-ryzen-7-5700-am4-sin-video-con-cooler-7856/amd-ryzen-7-5700-5700-1779905656624.jpg",
-    "desc": "🔥 AMD Ryzen 7 5700  \nPotencia y rendimiento para gaming y multitarea exigente.\n\n8 núcleos / 16 hilos para máxima fluidez en juegos y programas pesados.\n\nFrecuencia base de 3.7 GHz y boost de hasta 4.6 GHz.\n\nArquitectura Zen 3 optimizada para eficiencia y velocidad.\n\nCompatible con DDR4 3200MHz y placas madre AM4.\n\nIdeal para PC Gamer y entornos de trabajo creativo.\n\n💻 Rendimiento superior en FPS, multitarea sin cortes y estabilidad garantizada.",
-    "customButtons": [],
-    "banners": [],
-    "subcategoria": "AM4",
-    "category": "Procesadores",
-    "category2": "",
-    "category3": "",
-    "excludeFromExport": false
-  },
-  {
     "img": "img/productos/Prolongador 4 tomas  NORMALIZADO.png",
     "title": "Prolongador Kelyx 4 tomas 220V c/proteccion 1.5mts",
     "desc": "⚡ Energía segura y potente\n🔌 Conectá hasta 4 dispositivos al mismo tiempo\n🏠 Ideal para hogar u oficina\n💪 Potencia máxima: 2200W\n🛡️ Protección IP20 para tu tranquilidad\n📏 Diseño compacto y confiable\n👉 ¡La solución práctica para mantener tus espacios energizados con seguridad y estilo!",
@@ -3233,7 +3341,7 @@
   },
   {
     "id": "prod-1778159782040",
-    "title": "Soporte Base Stand Ajustable De Escritorio Auriculares Gamer",
+    "title": "Soporte para  Auriculares Gamer De Escritorio Base Stand Ajustable",
     "img": "img/productos/soporte-base-stand-ajustable-de-escritorio-auriculares-gamer/soporte-stand-ajustable-de-escritorio-auriculares-gamer-des--2--1778159612586.jpg",
     "gallery": "img/productos/soporte-base-stand-ajustable-de-escritorio-auriculares-gamer/soporte-stand-ajustable-de-escritorio-auriculares-gamer-des--2--1778159612586.jpg,img/productos/soporte-base-stand-ajustable-de-escritorio-auriculares-gamer/soporte-para-auriculares-des-1778159612516.jpg,img/productos/soporte-base-stand-ajustable-de-escritorio-auriculares-gamer/soporte-stand-ajustable-de-escritorio-auriculares-gamer-des--3--1778159612618.jpg,img/productos/soporte-base-stand-ajustable-de-escritorio-auriculares-gamer/soporte-stand-ajustable-de-escritorio-auriculares-gamer-des-1778159612653.jpg",
     "desc": "✅ CARACTERÍSTICAS PRINCIPALES\n\nAltura regulable: ajustá la altura entre 18,8 y 28,8 cm para adaptarse a distintos tipos de auriculares.\n\nDiseño ergonómico: soporte superior curvo que cuida la forma de la vincha.\n\nBase circular antideslizante: firme y estable, ideal para escritorios de oficina o setups gamer.\n\nMaterial resistente: fabricado en plástico ABS de alta calidad.\n\nFácil de ensamblar: sin herramientas, en pocos segundos.\n\nIdeal para: auriculares gamer, de oficina o profesionales.\n\n📏 MEDIDAS APROXIMADAS\n\nAltura mínima: 18,8 cm\n\nAltura máxima: 28,8 cm\n\nAncho de la base: 11,5 cm\n\nProfundidad de la base: 14 cm\n\nAncho del soporte superior: 10,2 cm\n\n🧩 VENTAJAS DEL PRODUCTO\n\nEvitá dejar tus auriculares en el escritorio y prolongá su vida útil.\n\nMantené tu espacio ordenado y estético.\n\nCombina con cualquier entorno gracias a su diseño sobrio y moderno.",
@@ -3358,7 +3466,7 @@
   },
   {
     "id": "prod-1778171188148",
-    "title": "Switch BLUE Mecánico  Kailh Regular Blue Vsg",
+    "title": "SWITCH BLUE - Repuestos Para Teclados Mecánicos  Kailh Regular Blue Vsg",
     "img": "img/productos/kit-switches-kailh-regular-blue-vsg-mecanico-clicky-azul/kailh-regular-blue-switch-vsg-1778171081709.jpg",
     "gallery": "img/productos/kit-switches-kailh-regular-blue-vsg-mecanico-clicky-azul/kailh-regular-blue-switch-vsg-1778171081709.jpg,img\\des\\Kailh Regular Blue switch vsg des.png",
     "desc": "- 🕒 Vida útil: 70 millones de pulsaciones\n\n- ⚡ Operación: 12V 10 mA\n\n- 🔌 Resistencia de contacto: 100 MΩ\n\n- 🛡️ Resistencia de aislamiento: 100 MΩ\n\n- ⏱️ Tiempo de oscilación: ≤ 5 ms\n\n- 📏 Distancia total: 4.0 ± 0.4 mm\n\n🔵 REGULAR AZUL\n\n- 🎵 Sensación: Clicky\n\n- 💪 Fuerza de actuación: 45 ± 10 gf\n\n- 📏 Distancia de actuación: 1.9 ± 0.4 mm",
@@ -3369,7 +3477,7 @@
     "inStock": true,
     "slug": "kit-switches-kailh-regular-blue-vsg-mec-nico-clicky-azul",
     "price": 1000,
-    "priceLocal": 500,
+    "priceLocal": 600,
     "banners": [],
     "priceNum": "1000",
     "cashPrice": "600",
@@ -3378,12 +3486,12 @@
   },
   {
     "img": "img/productos/switch-brown-marron-teclado-mecanico-vsg-apex-5-kailh-brown-marron-antighosting/kailh-regular-brown-switch-vsg-1779915504537.jpg",
-    "title": "SWITCH BROWN (MARRON) Teclado Mecánico Vsg Apex 5 Kailh Brown Marrón Antighosting",
+    "title": "SWITCH BROWN Repuestos Para Teclados Mecánicos - Vsg Apex 5 Kailh  Antighosting",
     "desc": "- 🕒 Vida útil: 70 millones de pulsaciones\n- ⚡ Operación: 12V 10 mA\n- 🔌 Resistencia de contacto: 100 MΩ\n- 🛡️ Resistencia de aislamiento: 100 MΩ\n- ⏱️ Tiempo de oscilación: ≤ 5 ms\n- 📏 Distancia total: 4.0 ± 0.4 mm\n🟤 REGULAR MARRÓN\n- 👆 Sensación: Táctil\n- 💪 Fuerza de actuación: 45 ± 10 gf\n- 📏 Distancia de actuación: 1.9 ± 0.5 m",
     "priceVisible": "$1.000",
     "subcategoria": "teclado",
     "price": 1000,
-    "priceLocal": 500,
+    "priceLocal": 600,
     "inStock": true,
     "id": "prod-teclado-mec-nico-vsg-apex-5-sw-891",
     "priceNum": "1000",
@@ -3398,12 +3506,12 @@
   },
   {
     "img": "img/productos/switches-rojo-teclado-mecanico-vsg-kailh-red-antighosting/kailh-regular-red-switch-vsg-1779915593295.jpg",
-    "title": "Switches Rojo Teclado Mecánico Vsg Kailh Red Antighosting",
+    "title": "SWITCH ROJO Repuestos Para Teclados Mecánicos  - Vsg Kailh Red Antighosting",
     "desc": "- 🕒 Vida útil: 70 millones de pulsaciones\n- ⚡ Operación: 12V 10 mA\n- 🔌 Resistencia de contacto: 100 MΩ\n- 🛡️ Resistencia de aislamiento: 100 MΩ\n- ⏱️ Tiempo de oscilación: ≤ 5 ms\n- 📏 Distancia total: 4.0 ± 0.4 mm\n🔴 REGULAR ROJO\n- ➡️ Sensación: Lineal\n- 💪 Fuerza de actuación: 45 ± 10 gf\n- 📏 Distancia de actuación: 1.9 ± 0.5 m",
     "priceVisible": "$1.000",
     "subcategoria": "teclado",
     "price": 1000,
-    "priceLocal": 500,
+    "priceLocal": 600,
     "inStock": true,
     "id": "prod-teclado-mec-nico-vsg-kailh-red-131",
     "priceNum": "1000",
@@ -3566,7 +3674,7 @@
     "category": "Periféricos",
     "category2": "",
     "subcategoria": "teclado",
-    "inStock": false,
+    "inStock": true,
     "slug": "teclado-genius-usb-kb-113-black-sp",
     "price": 10500,
     "priceLocal": 10000,
@@ -3645,8 +3753,8 @@
     "subcategoria": "tonillos",
     "inStock": true,
     "slug": "tornillos-para-pc-varios-modelos",
-    "price": 1000,
-    "priceLocal": 1000,
+    "price": 1200,
+    "priceLocal": 600,
     "banners": [],
     "priceNum": "1000",
     "cashPrice": "1000",
@@ -3672,24 +3780,6 @@
     "priceNum": "2000",
     "cashPrice": "1500",
     "customButtons": [],
-    "category3": ""
-  },
-  {
-    "img": "img/productos/Cable usb a v8.png",
-    "title": "Usb Only Datos Y Carga Rapida",
-    "desc": "CABLE CARGA Y TRANSFERENCIA DE DATOS FICHA V8",
-    "priceVisible": "$1.000",
-    "subcategoria": "Cable V8",
-    "price": 1000,
-    "priceLocal": 500,
-    "inStock": true,
-    "id": "prod-usb-only-datos-y-carga-rapida-792",
-    "priceNum": "1000",
-    "cashPrice": "600",
-    "customButtons": [],
-    "banners": [],
-    "category": "Cargadores",
-    "category2": "",
     "category3": ""
   },
   {
@@ -3789,32 +3879,6 @@
     ],
     "category": "Placas de video",
     "category2": "",
-    "category3": ""
-  },
-  {
-    "img": "img\\productos\\rtx 5060 ventus white.png",
-    "gallery": "img\\productos\\rtx 5060 ventus white.png,img\\productos\\VGA MSI GeForce RTX 5060 8G VENTUS 2X OC WHITE (4296)\\msi-8g-ventus-2x-oc-thermal-heat-pipes.png,img\\productos\\VGA MSI GeForce RTX 5060 8G VENTUS 2X OC WHITE (4296)\\msi-ventus-thermal-torx-fan.png,img\\productos\\VGA MSI GeForce RTX 5060 8G VENTUS 2X OC WHITE (4296)\\product_1745313867fc830217de0b3be0638273c1c09fe9d2 (1).webp,img\\productos\\VGA MSI GeForce RTX 5060 8G VENTUS 2X OC WHITE (4296)\\product_17453138693d3261cc10c4389ca376e5d822c605cc.webp",
-    "title": "VGA MSI GeForce RTX 5060 8G VENTUS 2X OC WHITE",
-    "desc": "PCI Express® Gen 5 x16, 2535 MHz, 3840 CUDA Cores, 28 Gbps, 8GB GDDR7, 128-bit, DisplayPort x3, HDMI x1, Fuente mínima 550W",
-    "priceVisible": "$728.500",
-    "subcategoria": "nvidia",
-    "price": 735000,
-    "priceLocal": 702500,
-    "inStock": true,
-    "id": "prod-vga-msi-geforce-rtx-5060-8g-ve-357",
-    "priceNum": "728500",
-    "cashPrice": "697000",
-    "customButtons": [
-      {
-        "label": "review",
-        "link": "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-8G-VENTUS-2X-OC-WHITE/Overview"
-      }
-    ],
-    "banners": [
-      "rtx5060"
-    ],
-    "category": "Placas de video",
-    "category2": "destacados",
     "category3": ""
   },
   {
@@ -3946,13 +4010,13 @@
     "subcategoria": "KIT",
     "inStock": true,
     "slug": "kit-de-actualizacion-am4-8gb",
-    "price": 509500,
-    "priceLocal": 494000,
+    "price": 511000,
+    "priceLocal": 495000,
     "banners": [
       "kitryzen"
     ],
-    "priceNum": "509500",
-    "cashPrice": "494000",
+    "priceNum": "511000",
+    "cashPrice": "495000",
     "customButtons": [],
     "category3": "",
     "excludeFromExport": true
@@ -3960,22 +4024,22 @@
   {
     "id": "prod-1779232900220",
     "title": "KIT DE ACTUALIZACION AM4 16GB",
-    "img": "img\\productos\\KIT Y PC\\TECH\\kit de actualizacion ryzen 5 5600gt 16gb de ram.png",
-    "gallery": "img\\productos\\KIT Y PC\\TECH\\kit de actualizacion ryzen 5 5600gt 16gb de ram.png,img/productos/kit-de-actualizacion-am4-16gb/kit-de-actualizacion-ryzen-5-5600gt-16gb-de-ram-des-1779232851453.jpg",
+    "img": "img/productos/kit-de-actualizacion-am4-16gb/kit-de-actualizacion-ryzen-5-5600gt-8gb-de-ram--2--1779995687744.jpg",
+    "gallery": "img/productos/kit-de-actualizacion-am4-16gb/kit-de-actualizacion-ryzen-5-5600gt-8gb-de-ram--2--1779995687744.jpg",
     "desc": "🧩 Motherboard: MSI A520M PRO\n\n⚙️ Procesador: AMD Ryzen 5 5600GT\n\n💾 Memoria: Hiksemi Hiker 2x8GB DDR4 3200MHz",
     "video": "",
     "category": "Notebook",
     "category2": "",
     "subcategoria": "KIT",
-    "inStock": false,
+    "inStock": true,
     "slug": "kit-de-actualizacion-am4-16gb",
-    "price": 644000,
-    "priceLocal": 621000,
+    "price": 609500,
+    "priceLocal": 595500,
     "banners": [
       "kitryzen"
     ],
-    "priceNum": "644000",
-    "cashPrice": "621000",
+    "priceNum": "609500",
+    "cashPrice": "595500",
     "customButtons": [],
     "category3": "",
     "excludeFromExport": true
@@ -4036,38 +4100,15 @@
     "category": "Notebook",
     "category2": "",
     "subcategoria": "KIT",
-    "inStock": false,
+    "inStock": true,
     "slug": "kit-de-actualizacion-am4-8gb-armor",
-    "price": 0,
-    "priceLocal": 0,
+    "price": 570500,
+    "priceLocal": 549000,
     "banners": [
       "kitryzen"
     ],
-    "priceNum": "",
-    "cashPrice": "",
-    "customButtons": [],
-    "category3": "",
-    "excludeFromExport": true
-  },
-  {
-    "id": "prod-1779234245212",
-    "title": "PC GAMER RAPTOR WHITE RTX 5060",
-    "img": "img\\productos\\KIT Y PC\\pc\\pc gamer eclypse 5050 16gb.png",
-    "gallery": "img\\productos\\KIT Y PC\\pc\\pc gamer eclypse 5050 16gb.png,img/productos/pc-gamer-raptor-white-rtx-5060/pc-gamer-eclypse-5050-16gb-2-1779234035918.jpg",
-    "desc": "🎮 PC Gaming – Potencia y Estilo White 🎮\n\n🌈 Gabinete Raptor Thunder Strike White RGB – diseño gamer con iluminación personalizable.\n\n⚙️ Procesador AMD Ryzen 7 5700 – rendimiento sólido para multitarea y gaming exigente.\n\n❄️ Gráfica MSI RTX 5060 Ventus X2 White 8GB GDDR7 – potencia de última generación con estética blanca.\n\n🔌 Fuente Gigabyte 750W 80 Plus Bronze – energía estable y eficiente.\n\n🚀 Almacenamiento Hiksemi Wave NVMe 512GB – velocidad ultrarrápida para juegos y programas.\n\n🧩 Motherboard Gigabyte B550M-K – plataforma confiable y preparada para expansión.\n\n💾 Memoria Hiksemi Hiker 16GB DDR4 3200MHz – rendimiento fluido en multitarea y gaming.",
-    "video": "",
-    "category": "Notebook",
-    "category2": "",
-    "subcategoria": "PC",
-    "inStock": false,
-    "slug": "pc-gamer-raptor-white-rtx-5060",
-    "price": 0,
-    "priceLocal": 0,
-    "banners": [
-      "pccombo"
-    ],
-    "priceNum": "",
-    "cashPrice": "",
+    "priceNum": "570500",
+    "cashPrice": "549000",
     "customButtons": [],
     "category3": "",
     "excludeFromExport": true
@@ -4077,20 +4118,20 @@
     "title": "PC RAPTOR VORTEX 8GB",
     "img": "img/productos/pc-raptor-vortex-8gb/pcgamer-8gb-1779234373966.jpg",
     "gallery": "img/productos/pc-raptor-vortex-8gb/pcgamer-8gb-1779234373966.jpg,img\\productos\\KIT Y PC\\pc\\pcgamer 8gb des.png",
-    "desc": "🎮 PC Gaming – Raptor Vortex RGB Black 🎮\n\n🌈 Gabinete Raptor Vortex RGB Black – diseño gamer con iluminación personalizable.\n\n⚙️ Procesador AMD Ryzen 5 5600GT – rendimiento sólido para gaming y multitarea.\n\n🧩 Motherboard MSI A520M PRO – plataforma confiable y estable.\n\n🔌 Fuente Raptor Volt 500W 80 Plus Bronze – energía segura y eficiente.\n\n💾 Memoria Hiksemi Hiker 8GB DDR4 3200MHz – velocidad y estabilidad para tus juegos.\n\n🚀 SSD 256GB – arranques rápidos y espacio para tus títulos favoritos.",
+    "desc": "🎮 PC Gaming – Raptor Vortex RGB Black 🎮\n\n🌈 Gabinete Raptor Vortex RGB Black – diseño gamer con iluminación personalizable.\n\n⚙️ Procesador AMD Ryzen 5 5600GT – rendimiento sólido para gaming y multitarea.\n\n🧩 Motherboard MSI A520M-A PRO – plataforma confiable y estable.\n\n🔌 Fuente Raptor Volt 500W 80 Plus Bronze – energía segura y eficiente.\n\n💾 Memoria Hiksemi Hiker 8GB DDR4 3200MHz – velocidad y estabilidad para tus juegos.\n\n🚀 SSD 256GB – arranques rápidos y espacio para tus títulos favoritos.",
     "video": "",
     "category": "Notebook",
     "category2": "",
     "subcategoria": "PC",
-    "inStock": false,
+    "inStock": true,
     "slug": "pc-raptor-vortex-8gb",
-    "price": 709500,
-    "priceLocal": 673500,
+    "price": 714000,
+    "priceLocal": 675500,
     "banners": [
       "pccombo"
     ],
-    "priceNum": "709500",
-    "cashPrice": "673500",
+    "priceNum": "714000",
+    "cashPrice": "675500",
     "customButtons": [],
     "category3": "",
     "excludeFromExport": true
@@ -4142,75 +4183,6 @@
     "excludeFromExport": true
   },
   {
-    "id": "prod-1779293986809",
-    "title": "PC GAMER ECLYPSE+RYZEN 7 5700+RTX 5050 16GB",
-    "img": "img/productos/pc-gamer-eclypse-ryzen-7-5700-rtx-5050-16gb/pc-gamer-eclypse-5050-16gb-gigabyte-1779293468182.jpg",
-    "gallery": "img/productos/pc-gamer-eclypse-ryzen-7-5700-rtx-5050-16gb/pc-gamer-eclypse-5050-16gb-gigabyte-1779293468182.jpg,img\\productos\\KIT Y PC\\pc\\pc gamer eclypse 5050 16gb gigabyte 2.png\"",
-    "desc": "🎮 PC Gaming – Raptor Eclypse Edition 🎮\n\n🌌 Gabinete Raptor Eclypse – diseño gamer con vidrio templado y estética premium.\n\n⚙️ Procesador AMD Ryzen 7 5700 (AM4) – potencia sólida para multitarea y gaming exigente.\n\n❄️ Gráfica Gigabyte RTX 5050 Gaming OC 8GB GDDR6 – rendimiento de última generación para juegos en alta resolución.\n\n🧩 Motherboard Gigabyte B550M-K – plataforma confiable y preparada para expansión.\n\n💾 Memoria Hiksemi Hiker 16GB DDR4 3200MHz (2×8GB) – velocidad y estabilidad en multitarea.\n\n🚀 Almacenamiento Hiksemi Wave NVMe 512GB PCIe 3.0 – arranques ultrarrápidos y espacio para tus títulos favoritos.\n\n🔌 Fuente Gigabyte 750W 80 Plus Bronze – energía estable y eficiente para componentes de alto rendimiento.",
-    "video": "",
-    "category": "Notebook",
-    "category2": "",
-    "subcategoria": "PC",
-    "inStock": false,
-    "slug": "pc-gamer-eclypse-ryzen-7-5700-rtx-5050-16gb",
-    "price": 0,
-    "priceLocal": 0,
-    "banners": [
-      "pccombo"
-    ],
-    "priceNum": "",
-    "cashPrice": "",
-    "customButtons": [],
-    "category3": "",
-    "excludeFromExport": true
-  },
-  {
-    "id": "prod-1779295685084",
-    "title": "PC GAMER OBSIDIAN RYZEN 5 5600GT 16GB",
-    "img": "img/productos/pc-gamer-obsidian-ryzen-5-5600gt-16gb/pcgamer-16gb-obsidian-1779295450524.jpg",
-    "gallery": "img/productos/pc-gamer-obsidian-ryzen-5-5600gt-16gb/pcgamer-16gb-obsidian-1779295450524.jpg,img/productos/pc-gamer-obsidian-ryzen-5-5600gt-16gb/pcgamer-16gb-obsidian-2-1779295450495.jpg",
-    "desc": "🎮 PC Gaming – Mlogix Eclypse Edition 🎮\n\n🌌 Gabinete Mlogix Eclypse – diseño gamer con vidrio templado y estética premium.\n\n⚙️ Procesador AMD Ryzen 5 5600GT (AM4) – rendimiento sólido para gaming y multitarea.\n\n🧩 Motherboard MSI A520M PRO – plataforma confiable y estable.\n\n💾 Memoria Hiksemi Hiker 16GB DDR4 3200MHz (1 módulo) – multitarea fluida y rendimiento estable.\n\n🚀 Almacenamiento Hiksemi Wave NVMe 256GB PCIe 3.0 – arranques ultrarrápidos y espacio para tus juegos favoritos.\n\n🔌 Fuente Gigabyte/Raptor Volt 500W 80 Plus Bronze – energía eficiente y confiable.",
-    "video": "",
-    "category": "Notebook",
-    "category2": "",
-    "subcategoria": "PC",
-    "inStock": false,
-    "slug": "pc-gamer-obsidian-ryzen-5-5600gt-16gb",
-    "price": 0,
-    "priceLocal": 0,
-    "banners": [
-      "pccombo"
-    ],
-    "priceNum": "",
-    "cashPrice": "",
-    "customButtons": [],
-    "category3": "",
-    "excludeFromExport": true
-  },
-  {
-    "id": "prod-1779318458362",
-    "title": "PC GAMER THUNDERSTRIKE WHITE RYZEN 5 5600GT 16GB",
-    "img": "img/productos/pc-gamer-thunderstrike-white-ryzen-5-5600gt-16gb/pcgamer-16gb-1779318204939.jpg",
-    "gallery": "img/productos/pc-gamer-thunderstrike-white-ryzen-5-5600gt-16gb/pcgamer-16gb-1779318204939.jpg,img\\productos\\KIT Y PC\\pc\\pcgamer 16gb (2).png",
-    "desc": "🎮 PC Gaming – Raptor Thunder Strike White Edition 🎮\n\n🌈 Gabinete Raptor Thunder Strike White RGB – estética gamer en blanco con iluminación personalizable.\n\n⚙️ Procesador AMD Ryzen 5 5600GT (AM4) – potencia sólida para gaming y multitarea.\n\n🧩 Motherboard MSI A520M PRO – plataforma confiable y estable.\n\n💾 Memoria Hiksemi Hiker 16GB DDR4 3200MHz (1 módulo) – rendimiento fluido y multitarea estable.\n\n🚀 Almacenamiento Hiksemi Wave NVMe 512GB PCIe 3.0 – arranques ultrarrápidos y espacio para tus juegos favoritos.\n\n🔌 Fuente 500W 80 Plus Bronze – energía segura y eficiente.",
-    "video": "",
-    "category": "Notebook",
-    "category2": "",
-    "subcategoria": "PC",
-    "inStock": false,
-    "slug": "pc-gamer-thunderstrike-white-ryzen-5-5600gt-16gb",
-    "price": 0,
-    "priceLocal": 0,
-    "banners": [
-      "pccombo"
-    ],
-    "priceNum": "",
-    "cashPrice": "",
-    "customButtons": [],
-    "category3": "",
-    "excludeFromExport": true
-  },
-  {
     "id": "prod-1779916758316",
     "title": "Kit de tecnico alcohol, manta, pulsera y kit detornillador",
     "img": "img/productos/kit-de-tecnico-alcohol-manta-pulsera-y-kit-detornillador/kit-de-tecnico-1779916591787.jpg",
@@ -4252,6 +4224,167 @@
     ],
     "priceNum": "37500",
     "cashPrice": "31500",
+    "customButtons": [],
+    "category3": "",
+    "excludeFromExport": true
+  },
+  {
+    "id": "prod-1779996807695",
+    "title": "PC GAMER ECLYPSE R7 5700+RTX 5050 GIGABYTE+16GB 3200MHZ",
+    "img": "img/productos/pc-gamer-eclypse-r7-5700-rtx-5050-gigabyte-16gb-3200mhz/pc-gamer-eclypse-rtx5050-16gb-1780006678980.jpg",
+    "gallery": "img/productos/pc-gamer-eclypse-r7-5700-rtx-5050-gigabyte-16gb-3200mhz/pc-gamer-eclypse-rtx5050-16gb-1780006678980.jpg",
+    "desc": "Potencia avanzada y estilo gamer con RGB.\n\n⚙️ Procesador: AMD Ryzen 7 5700\n\n🧩 Motherboard: Gigabyte B550M-K (AM4)\n\n💾 Memoria RAM: HIKSEMI Hiker DDR4 16GB 3200MHz\n\n🚀 Almacenamiento: NVMe 512GB ultrarrápido\n\n🔌 Fuente: 650W 80 Plus Bronze\n\n🖼️ Gabinete Gamer: panel de vidrio templado con iluminación RGB\n\n🎨 Placa de video: NVIDIA RTX 5050 Gigabyte OC 8GB GDDR6",
+    "video": "",
+    "category": "Notebook",
+    "category2": "",
+    "subcategoria": "PC",
+    "inStock": true,
+    "slug": "pc-gamer-eclypse-rtx-5050",
+    "price": 1622500,
+    "priceLocal": 1553000,
+    "banners": [
+      "pccombo"
+    ],
+    "priceNum": "1622500",
+    "cashPrice": "1553000",
+    "customButtons": [],
+    "category3": "",
+    "excludeFromExport": true
+  },
+  {
+    "id": "prod-1780001319370",
+    "title": "PC GAMER RAPTOR WHITE R7 5700+RTX 5050 VENTUS+256GB",
+    "img": "img/productos/pc-gamer-raptor-white-r7-5700-rtx-5050-ventus-256gb/pcgamer-white-5050-1780006465799.jpg",
+    "gallery": "img/productos/pc-gamer-raptor-white-r7-5700-rtx-5050-ventus-256gb/pcgamer-white-5050-1780006465799.jpg",
+    "desc": "🎮 PC Gamer Ryzen 7 5700 + RTX 5050 Ventus X2  \nPotencia avanzada y estilo gamer con RGB.\n\n⚙️ Procesador: AMD Ryzen 7 5700\n\n🧩 Motherboard: B550M-K (AM4)\n\n💾 Memoria RAM: Hiksemi Hiker DDR4 16GB 3200MHz\n\n🚀 Almacenamiento: SSD NVMe 256GB ultrarrápido\n\n🔌 Fuente: 650W 80 Plus Bronze\n\n🖼️ Gabinete Gamer: panel de vidrio templado con iluminación RGB\n\n🎨 Placa de video: NVIDIA RTX 5050 Ventus X2 8GB GDDR6",
+    "video": "",
+    "category": "Notebook",
+    "category2": "",
+    "subcategoria": "PC",
+    "inStock": true,
+    "slug": "pc-gamer-raptor-white-r7-5700-rtx-5050-ventus-256gb",
+    "price": 1500000,
+    "priceLocal": 1438500,
+    "banners": [
+      "pccombo"
+    ],
+    "priceNum": "1500000",
+    "cashPrice": "1438500",
+    "customButtons": [],
+    "category3": "",
+    "excludeFromExport": true
+  },
+  {
+    "id": "prod-1780002042641",
+    "title": "PC GAMER ECLYPSE R7 5700+RTX5060+16GB+512GB",
+    "img": "img/productos/pc-gamer-eclypse-r7-5700-rtx5060-16gb-3200mhz/pc-gamer-eclypse-rtx5060-16gb-1780006504061.jpg",
+    "gallery": "img/productos/pc-gamer-eclypse-r7-5700-rtx5060-16gb-3200mhz/pc-gamer-eclypse-rtx5060-16gb-1780006504061.jpg",
+    "desc": "🎮 PC Gamer Ryzen 7 5700 + RTX 5060 Ventus X2  \nRendimiento de última generación con estilo gamer RGB.\n\n⚙️ Procesador: AMD Ryzen 7 5700\n\n🧩 Motherboard: B550M-K (AM4)\n\n💾 Memoria RAM: Hiksemi Hiker DDR4 16GB 3200MHz\n\n🚀 Almacenamiento: SSD NVMe 512GB ultrarrápido\n\n🔌 Fuente: 650W 80 Plus Bronze\n\n🖼️ Gabinete Gamer: panel de vidrio templado con iluminación RGB\n\n🎨 Placa de video: NVIDIA RTX 5060 Ventus X2 8GB GDDR7\n\n🔥 Ideal para gamers exigentes y creadores de contenido que buscan máxima potencia gráfica, multitarea fluida y estética gamer premium.",
+    "video": "",
+    "category": "Notebook",
+    "category2": "",
+    "subcategoria": "PC",
+    "inStock": true,
+    "slug": "pc-gamer-eclypse-r7-5700-rtx5060-16gb-3200mhz",
+    "price": 1700500,
+    "priceLocal": 1624000,
+    "banners": [
+      "pccombo"
+    ],
+    "priceNum": "1700500",
+    "cashPrice": "1624000",
+    "customButtons": [],
+    "category3": "",
+    "excludeFromExport": true
+  },
+  {
+    "id": "prod-1780002335132",
+    "title": "PC GAMER ECLYPSE R7 5700+RTX5060+WATER COOLING",
+    "img": "img/productos/pc-gamer-eclypse-r7-5700-rtx5060-water-cooling/pc-gamer-eclypse-rtx5060-16gb-1780006662888.jpg",
+    "gallery": "img/productos/pc-gamer-eclypse-r7-5700-rtx5060-water-cooling/pc-gamer-eclypse-rtx5060-16gb-1780006662888.jpg",
+    "desc": "🎮 PC Gamer Ryzen 7 5700 + RTX 5060 Ventus X2  \nMáxima potencia y refrigeración avanzada para gaming extremo.\n\n⚙️ Procesador: AMD Ryzen 7 5700\n\n🧩 Motherboard: MSI A520M-A PRO (AM4)\n\n💾 Memoria RAM: Hiksemi Hiker DDR4 16GB 3200MHz\n\n🚀 Almacenamiento: SSD NVMe 512GB ultrarrápido\n\n🔌 Fuente: 650W 80 Plus Bronze\n\n🖼️ Gabinete Gamer: panel de vidrio templado con iluminación RGB\n\n🎨 Placa de video: NVIDIA RTX 5060 Ventus X2 8GB GDDR7\n\n💧 Refrigeración líquida: Raptor Aqua Core 360 – triple ventilador para máxima disipación térmica\n\n🔥 Ideal para gamers y creadores que buscan rendimiento de última generación, refrigeración eficiente y estética gamer premium con RGB.",
+    "video": "",
+    "category": "Notebook",
+    "category2": "",
+    "subcategoria": "PC",
+    "inStock": true,
+    "slug": "pc-gamer-con-water-cooling",
+    "price": 1805000,
+    "priceLocal": 1716500,
+    "banners": [
+      "pccombo"
+    ],
+    "priceNum": "1805000",
+    "cashPrice": "1716500",
+    "customButtons": [],
+    "category3": "",
+    "excludeFromExport": true
+  },
+  {
+    "id": "prod-1780004391228",
+    "title": "PC GAMER RAPTOR THUNDER AM4 R5 5600GT+16GB+256GB",
+    "img": "img/productos/pc-gamer-raptor-thunder-am4-r5-5600gt-16gb-256gb/pcgamer-16gb-1780004347985.jpg",
+    "gallery": "img/productos/pc-gamer-raptor-thunder-am4-r5-5600gt-16gb-256gb/pcgamer-16gb-1780004347985.jpg",
+    "desc": "Rendimiento confiable y estilo gamer con RGB.\n\n⚙️ Procesador: AMD Ryzen 5 5600GT\n\n🧩 Motherboard: MSI A520M-A PRO (AM4)\n\n💾 Memoria RAM: Hiksemi Hiker DDR4 16GB 3200MHz\n\n🚀 Almacenamiento: SSD NVMe 256GB ultrarrápido\n\n🔌 Fuente: 500W 80 Plus Silver\n\n🖼️ Gabinete Gamer: panel de vidrio templado con iluminación RGB\n\n🎮 Ideal para quienes buscan un equipo equilibrado para gaming y multitarea, con diseño moderno y componentes eficientes.",
+    "video": "",
+    "category": "Notebook",
+    "category2": "",
+    "subcategoria": "PC",
+    "inStock": true,
+    "slug": "pc-gamer-raptor-thunder-am4-r5-5600gt-16gb-256gb",
+    "price": 831500,
+    "priceLocal": 802500,
+    "banners": [
+      "pccombo"
+    ],
+    "priceNum": "831500",
+    "cashPrice": "802500",
+    "customButtons": [],
+    "category3": "",
+    "excludeFromExport": true
+  },
+  {
+    "id": "prod-1780004591071",
+    "title": "PC GAMER RAPTOR THUNDER AM5 R5 5600GT+16GB+512GB",
+    "img": "img/productos/pc-gamer-raptor-thunder-am5-r5-5600gt-16gb-512gb/pcgamer-16gb-1780004563865.jpg",
+    "gallery": "img/productos/pc-gamer-raptor-thunder-am5-r5-5600gt-16gb-512gb/pcgamer-16gb-1780004563865.jpg",
+    "desc": "Rendimiento confiable y estilo gamer con RGB.\n\n⚙️ Procesador: AMD Ryzen 5 5600GT\n\n🧩 Motherboard: MSI A520M-A PRO (AM4)\n\n💾 Memoria RAM: Hiksemi Hiker DDR4 16GB 3200MHz\n\n🚀 Almacenamiento: SSD NVMe 512GB ultrarrápido\n\n🔌 Fuente: 500W 80 Plus Silver\n\n🖼️ Gabinete Gamer: panel de vidrio templado con iluminación RGB\n\n🎮 Ideal para quienes buscan un equipo equilibrado para gaming y multitarea, con diseño moderno y componentes eficientes.",
+    "video": "",
+    "category": "Notebook",
+    "category2": "",
+    "subcategoria": "PC",
+    "inStock": true,
+    "slug": "pc-gamer-raptor-thunder-am5-r5-5600gt-16gb-512gb",
+    "price": 886000,
+    "priceLocal": 853000,
+    "banners": [
+      "pccombo"
+    ],
+    "priceNum": "886000",
+    "cashPrice": "853000",
+    "customButtons": [],
+    "category3": "",
+    "excludeFromExport": true
+  },
+  {
+    "id": "prod-1780011746243",
+    "title": "PC GAMER ECLYPSE R7 5700+RTX5050+MONITOR+32GB",
+    "img": "img/productos/pc-gamer-eclypse-r7-5700-rtx5050-monitor-32gb/pc-gamer-eclypse-5050-monitor-1780011726121.jpg",
+    "gallery": "img/productos/pc-gamer-eclypse-r7-5700-rtx5050-monitor-32gb/pc-gamer-eclypse-5050-monitor-1780011726121.jpg",
+    "desc": "🎮 PC Gamer Ryzen 7 5700 + RTX 5050 Ventus X2  \nRendimiento extremo con refrigeración líquida y monitor gamer de alta frecuencia.\n\n⚙️ Procesador: AMD Ryzen 7 5700\n\n🧩 Motherboard: Gigabyte B550M-K (AM4)\n\n💾 Memoria RAM: Hiksemi Hiker DDR4 32GB 3200MHz\n\n🚀 Almacenamiento: SSD NVMe 512GB ultrarrápido\n\n🔌 Fuente: 650W 80 Plus Bronze\n\n🖼️ Gabinete Gamer: panel de vidrio templado con iluminación RGB\n\n🎨 Placa de video: NVIDIA RTX 5050 Ventus X2 8GB GDDR6\n\n💧 Refrigeración líquida: Raptor Aqua Core 360 – triple ventilador para máxima disipación térmica\n\n🖥️ Monitor: LG UltraGear 24\" IPS, 180Hz – fluidez y colores vibrantes para gaming competitivo\n\n🔥 Una configuración pensada para gamers exigentes y creadores de contenido, con potencia gráfica de última generación, refrigeración avanzada y un monitor de alto rendimiento para aprovechar cada frame.",
+    "video": "",
+    "category": "Notebook",
+    "category2": "",
+    "subcategoria": "PC",
+    "inStock": true,
+    "slug": "pc-gamer-eclypse-r7-5700-rtx5050-monitor-32gb",
+    "price": 2189500,
+    "priceLocal": 2094000,
+    "banners": [
+      "pccombo"
+    ],
+    "priceNum": "2189500",
+    "cashPrice": "2094000",
     "customButtons": [],
     "category3": "",
     "excludeFromExport": true
