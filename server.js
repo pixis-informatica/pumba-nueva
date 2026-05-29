@@ -81,7 +81,7 @@ const server = http.createServer((req, res) => {
       let nextVersion = "";
 
       // 1. Identificar la versión actual del script para calcular la siguiente
-      // Buscamos el patrón: js/versionalizador.js?v=X.X
+      // Capturamos cualquier cosa después de ?v= hasta el final de la comilla
       const jsMatch = html.match(/js\/versionalizador\.js\?v=([^"'\s>]+)/i);
       
       if (jsMatch) {
@@ -92,35 +92,35 @@ const server = http.createServer((req, res) => {
           let minor = parseInt(parts[1], 10) + 1;
           nextVersion = `${major}.${minor}`;
         } else {
+          // Si es un número plano, lo tratamos como decimal
           let current = parseFloat(versionStr) || 1.0;
           nextVersion = (current + 0.1).toFixed(1);
         }
       } else {
-        nextVersion = "1.0"; // Fallback si no encuentra nada
+        nextVersion = "1.1"; 
       }
 
-      // 2. Aplicar la misma nueva versión a JS y a los archivos CSS
+      // 2. Reemplazo ultra-robusto: Capturamos todo hasta la comilla de cierre
+      // Esto asegura limpiar tanto números largos como versiones con puntos.
       let newHtml = html.replace(
-        /(js\/versionalizador\.js\?v=)([^"'\s>]+)/i,
-        `$1${nextVersion}`
+        /js\/versionalizador\.js\?v=[^"'\s>]+/gi,
+        `js/versionalizador.js?v=${nextVersion}`
       );
       
-      // Actualizar style.css
       newHtml = newHtml.replace(
-        /(css\/style\.css\?v=)([^"'\s>]+)/i,
-        `$1${nextVersion}`
+        /css\/style\.css\?v=[^"'\s>]+/gi,
+        `css/style.css?v=${nextVersion}`
       );
       
-      // Actualizar lightmode.css
       newHtml = newHtml.replace(
-        /(css\/lightmode\.css\?v=)([^"'\s>]+)/i,
-        `$1${nextVersion}`
+        /css\/lightmode\.css\?v=[^"'\s>]+/gi,
+        `css/lightmode.css?v=${nextVersion}`
       );
 
       if (html !== newHtml) {
         fs.writeFileSync(indexPath, newHtml, 'utf-8');
         const now = new Date().toLocaleTimeString('es-AR');
-        console.log(`  \x1b[36m🔄 [${now}] Cache Busting: index.html actualizado a v${nextVersion}\x1b[0m`);
+        console.log(`  \x1b[36m🔄 [${now}] Cache Busting: v${nextVersion} aplicado a JS y CSS\x1b[0m`);
       }
     } catch (e) {
       console.error('  \x1b[31m❌ Error en bumpVersionalizador:\x1b[0m', e.message);
