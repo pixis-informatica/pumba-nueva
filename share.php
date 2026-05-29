@@ -95,7 +95,7 @@ $CATEGORIAS_SEO = [
         "imagen" => ""
     ],
     "refrigeracion" => [
-        "titulo" => "Pixis Informática | Refrigeración y Silencio",
+        "titulo" => "Pixis Informática | Soluciones termicas confiables para tu PC",
         "descripcion" => "❄️ COOLERS Y REFRIGERACIÓN LÍQUIDA — Disipadores de calor eficientes. Mantené tus temperaturas bajo control y el máximo rendimiento de tu procesador.",
         "imagen" => ""
     ],

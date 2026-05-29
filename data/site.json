@@ -20,6 +20,11 @@
       "bannerId": "pccombo"
     },
     {
+      "imgPc": "img/carrusel/caracol-1780094855042.jpg",
+      "imgMobile": "img/carrusel/apex-movil-1780094738451.jpg",
+      "bannerId": "joysticksraptorapex"
+    },
+    {
       "imgPc": "img/carrusel/mini-pc-pc-1779478506841.jpg",
       "imgMobile": "img/carrusel/mini-pc-mobile-1779478510259.jpg",
       "bannerId": "notebooks"
@@ -126,7 +131,11 @@
     "kittecnico": {
       "f": "kittecnico",
       "t": "KIT TECNICO"
+    },
+    "joysticksraptorapex": {
+      "f": "joysticksraptorapex",
+      "t": "Joysticks RAPTOR APEX"
     }
   },
-  "cacheVersion": 1780094245852
+  "cacheVersion": 1780095936470
 }

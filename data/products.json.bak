@@ -576,7 +576,7 @@
     "excludeFromExport": false
   },
   {
-    "img": "img\\des\\TAPO C310 CAMARA DE SEGURIDAD des.png",
+    "img": "img\\productos\\TAPO C310 Camara IP DayNight SD Wifi Exterior (0911)\\1_normal_1599194402144s.jpg",
     "gallery": "img\\productos\\TAPO C310 Camara IP DayNight SD Wifi Exterior (0911)\\1_normal_1599194402144s.jpg,img\\productos\\TAPO C310 Camara IP DayNight SD Wifi Exterior (0911)\\2_normal_1599194417653c.jpg,img\\productos\\TAPO C310 Camara IP DayNight SD Wifi Exterior (0911)\\3_normal_1599194429663y.jpg,img\\productos\\TAPO C310 Camara IP DayNight SD Wifi Exterior (0911)\\4_normal_1599194441148o.jpg",
     "title": "Camara de seguridad TAPO C310 TP-Link",
     "desc": "- Cámara exterior\n- App de seguridad sin anuncios\n- Redes inalámbricas o cableadas\n- Detección de movimiento y notificaciones\n- Ultra alta definición 3 MP\n- IP66 resistente a la intemperie",
@@ -587,7 +587,7 @@
     "inStock": true,
     "id": "prod-c-mara-de-seguridad-tapo-c310--173",
     "priceNum": "55500",
-    "cashPrice": "53500",
+    "cashPrice": "53000",
     "customButtons": [
       {
         "label": "review",
@@ -596,8 +596,10 @@
     ],
     "banners": [],
     "category": "Camara de Seguridad",
-    "category2": "",
-    "category3": ""
+    "category2": "destacados",
+    "category3": "",
+    "proximoIngreso": false,
+    "excludeFromExport": false
   },
   {
     "img": "img/productos/Cargador Lets.png",
@@ -700,12 +702,15 @@
         "link": "https://www.raptor-gaming.com.ar/control-raptor-apex-wireless-p-pc-ps3-swith-android-negro--det--0418394"
       }
     ],
-    "banners": [],
+    "banners": [
+      "joysticksraptorapex"
+    ],
     "subcategoria": "Joystick",
     "category": "Periféricos",
     "category2": "nuevos",
     "category3": "",
-    "excludeFromExport": false
+    "excludeFromExport": false,
+    "proximoIngreso": false
   },
   {
     "id": "PROD-MPIE6ZV70J2D",
@@ -719,11 +724,13 @@
     "gallery": "img/productos/control-raptor-apex-wireless-p-pc-ps3-swith-android-white-7619/apex-wireless-white--1779911446697.jpg,img/productos/control-raptor-apex-wireless-p-pc-ps3-swith-android-white-7619/0000000000418393000148096control-raptor-wh-06-800x800-1779911494835.jpg,img/productos/control-raptor-apex-wireless-p-pc-ps3-swith-android-white-7619/0000000000418393000248096control-raptor-wh-05-800x800-1779911494890.jpg,img/productos/control-raptor-apex-wireless-p-pc-ps3-swith-android-white-7619/0000000000418393000348097control-raptor-wh-04-800x800-1779911494923.jpg,img/productos/control-raptor-apex-wireless-p-pc-ps3-swith-android-white-7619/000000000041839324859418393-1-800x800-1779911494961.jpg",
     "desc": "🎮 Gamepad Inalámbrico Multifunción con RGB  \nCompatibilidad amplia y rendimiento preciso para tus juegos.\n\n🖥️ Compatible con: PS / PC / Switch / Android\n\n🔋 Batería: 600 mAh, hasta 10 horas de uso continuo\n\n⚡ Carga rápida: puerto USB Tipo C, tiempo de carga aprox. 3 h\n\n📡 Bluetooth: alcance de hasta 8 m\n\n🌈 Iluminación RGB: diseño gamer con estilo\n\n🎯 Palancas con sensor Hall: mayor precisión y durabilidad\n\n🚀 Función Turbo y programación: personalización avanzada para cada juego\n\n🔊 Consumo eficiente: corriente de trabajo < 100 mA\n\n🔌 Cable incluido: Tipo C\n\n✅ Ideal para gamers que buscan comodidad, estilo y control preciso en múltiples plataformas.",
     "customButtons": [],
-    "banners": [],
+    "banners": [
+      "joysticksraptorapex"
+    ],
     "subcategoria": "Joystick",
     "category": "Periféricos",
     "category2": "nuevos",
-    "category3": "",
+    "category3": "destacados",
     "excludeFromExport": false,
     "proximoIngreso": false
   },
