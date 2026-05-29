@@ -88,7 +88,7 @@
     "id": "Placas de video",
     "name": "Placas de Video",
     "icon": "🎮",
-    "customIcon": "img/categorias/cat-placas de video-1779313335266.png"
+    "customIcon": "img/categorias/cat-placas de video-1780083403341.png"
   },
   {
     "id": "Procesadores",
@@ -100,13 +100,13 @@
     "id": "red",
     "name": "Redes",
     "icon": "📡",
-    "customIcon": "img/categorias/cat-red-1779314434143.png"
+    "customIcon": "img/categorias/cat-red-1780083795983.png"
   },
   {
     "id": "refrigeracion",
     "name": "Refrigeración",
     "icon": "❄️",
-    "customIcon": "img/categorias/cat-refrigeracion-1779318984630.png"
+    "customIcon": "img/categorias/cat-refrigeracion-1780084222475.png"
   },
   {
     "id": "Sillas y Escritorios Gamer",
